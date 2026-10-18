@@ -1,0 +1,1435 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="English"><meta name="theme-color" content="#8A2232"><link rel="apple-touch-icon" href="data:image/png;base64,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"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);-webkit-text-size-adjust:100%;text-size-adjust:100%}body{margin:0}img{max-width:100%}[hidden]{display:none!important}*{-webkit-tap-highlight-color:transparent}</style></head><body><title>Tashi Delek English</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one calm column, phone-first; every screen has one big action at the bottom. */
+:root{
+  --bg:#FAF9F7; --surface:#F1ECE7; --card:#FFFFFF; --ink:#22191B; --muted:#6A5E60; --line:#E1D9D2;
+  --maroon:#8A2232; --on-maroon:#FFFFFF; --saffron:#D9921F; --saffron-soft:#F7E6C6; --sky:#2B67A8;
+  --good:#23704A; --good-bg:#E2F1E7; --bad:#B0281F; --bad-bg:#FBE6E3; --hl:#F2C46B;
+  --lv1:#F3DDB4; --lv2:#E7B666; --lv3:#C77F2A; --lv4:#8A2232;
+  --f-blue:#2F6DB5; --f-white:#F5F5F2; --f-red:#C8323A; --f-green:#2E8B57; --f-yellow:#E9B730;
+  --bo:"Noto Sans Tibetan","Noto Serif Tibetan","Jomolhari","Kailasa","Microsoft Himalaya","Qomolangma-UchenSarchung","Monlam Uni OuChan2",serif;
+  --en:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --r:18px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#181213; --surface:#231B1D; --card:#2B2224; --ink:#F4EDEB; --muted:#B5A8A9; --line:#3E3335;
+  --maroon:#B03A4F; --on-maroon:#FFFFFF; --saffron:#F0B451; --saffron-soft:#3D2F18; --sky:#79AEE8;
+  --good:#71CF98; --good-bg:#1B3124; --bad:#F2897F; --bad-bg:#3B1F1C; --hl:#8A6420;
+  --lv1:#4A3A22; --lv2:#7A5A26; --lv3:#B07A2E; --lv4:#D0566B; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#181213; --surface:#231B1D; --card:#2B2224; --ink:#F4EDEB; --muted:#B5A8A9; --line:#3E3335;
+  --maroon:#B03A4F; --on-maroon:#FFFFFF; --saffron:#F0B451; --saffron-soft:#3D2F18; --sky:#79AEE8;
+  --good:#71CF98; --good-bg:#1B3124; --bad:#F2897F; --bad-bg:#3B1F1C; --hl:#8A6420;
+  --lv1:#4A3A22; --lv2:#7A5A26; --lv3:#B07A2E; --lv4:#D0566B; color-scheme:dark}
+
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--en);font-size:18px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+#app{max-width:560px;margin:0 auto;min-height:100%;display:flex;flex-direction:column}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,select:focus-visible,[role=button]:focus-visible{outline:3px solid var(--saffron);outline-offset:2px}
+.bo{font-family:var(--bo);line-height:1.75;font-size:1.15em}
+.en-sub{color:var(--muted);font-size:.82rem;font-family:var(--en)}
+p{margin:0}
+
+/* Tibetan read-along */
+.sy{border-radius:4px;transition:background-color .12s}
+.sy.on{background:var(--hl);color:var(--ink)}
+.vbtn{display:inline-grid;place-items:center;vertical-align:middle;width:40px;height:40px;margin-left:8px;border-radius:50%;border:2px solid var(--saffron);background:var(--card);padding:0}
+.vbtn svg{width:20px;height:20px;fill:var(--saffron)}
+
+.flags{display:flex;height:8px;border-radius:0 0 6px 6px;overflow:hidden;margin-bottom:18px}
+.flags i{flex:1}
+.flags i:nth-child(1){background:var(--f-blue)} .flags i:nth-child(2){background:var(--f-white);box-shadow:inset 0 -1px 0 var(--line)}
+.flags i:nth-child(3){background:var(--f-red)} .flags i:nth-child(4){background:var(--f-green)} .flags i:nth-child(5){background:var(--f-yellow)}
+
+/* home */
+.hello{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.hello-bo{font-size:1.45rem;font-weight:600}
+.who{background:var(--surface);border:1px solid var(--line);border-radius:999px;min-width:56px;height:56px;font-size:28px;flex:none}
+.today{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;margin:22px 0}
+.ring{width:132px;height:132px;position:relative}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring .track{stroke:var(--surface);fill:none;stroke-width:12}
+.ring .val{stroke:var(--saffron);fill:none;stroke-width:12;stroke-linecap:round;transition:stroke-dashoffset .6s}
+.ring .mid{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ring .num{font-size:2.2rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.ring .of{font-size:.8rem;color:var(--muted)}
+.stats{display:grid;gap:12px;min-width:0}
+.stat{display:flex;align-items:baseline;gap:10px}
+.stat b{font-size:1.7rem;font-variant-numeric:tabular-nums;min-width:2ch}
+.stat .lbl{display:flex;flex-direction:column;line-height:1.25;min-width:0}
+.stat .lbl .bo{font-size:1rem}
+.cta{display:flex;flex-direction:column;align-items:center;gap:2px;width:100%;border:0;border-radius:var(--r);background:var(--maroon);color:var(--on-maroon);padding:18px 16px;min-height:76px}
+.cta .bo{font-size:1.35rem;font-weight:600}
+.cta .en-sub{color:inherit;opacity:.85}
+.plan{margin:12px 2px 0;color:var(--muted);font-size:.9rem;text-align:center}
+.plan .bo{font-size:1rem}
+.unitnow{margin-top:22px;padding:14px 16px;border-radius:var(--r);background:var(--surface);display:flex;gap:14px;align-items:center}
+.unitnow .pic{font-size:34px}
+.unitnow .bar{background:var(--card);margin-top:6px}
+.stagerow{display:flex;justify-content:space-between;gap:8px;font-size:.82rem;color:var(--muted);margin-top:10px}
+.menu{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px 0 28px}
+.menu button{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 6px;min-height:96px;display:flex;flex-direction:column;align-items:center;gap:4px}
+.menu svg{width:28px;height:28px;stroke:var(--maroon);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.menu .bo{font-size:1rem;line-height:1.4}
+.notice{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--saffron-soft);font-size:.9rem}
+.bar{height:10px;background:var(--surface);border-radius:999px;overflow:hidden;flex:1}
+.bar span{display:block;height:100%;background:var(--saffron);border-radius:999px;transition:width .4s}
+
+/* lesson */
+.lesson{display:flex;flex-direction:column;min-height:100%;flex:1}
+.ltop,.subtop{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;align-items:center;gap:12px;padding:12px 0}
+.icon-btn{width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;flex:none}
+.icon-btn svg{width:22px;height:22px;stroke:var(--ink);stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.timer{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.95rem;min-width:4.5ch;text-align:right}
+.lbody{flex:1;padding:8px 0 20px;display:flex;flex-direction:column;gap:14px}
+.lfoot{position:sticky;bottom:0;background:var(--bg);padding:10px 0 calc(14px + env(safe-area-inset-bottom,0px));display:grid;gap:10px}
+.prompt{font-size:1.3rem;font-weight:600;text-align:center}
+.prompt .bo{font-size:1.3rem}
+.prompt + .en-sub{text-align:center;margin-top:-10px}
+.btn{border:0;border-radius:var(--r);min-height:64px;padding:12px 18px;display:flex;align-items:center;justify-content:center;gap:10px;font-weight:600}
+.btn .bo{font-size:1.2rem}
+.btn.primary{background:var(--maroon);color:var(--on-maroon)}
+.btn.primary .en-sub{color:inherit;opacity:.85}
+.btn.ghost{background:var(--surface);color:var(--ink)}
+.btn.danger{background:var(--bad-bg);color:var(--bad)}
+.btn[disabled]{opacity:.4;cursor:default}
+.audio-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.play{display:flex;align-items:center;gap:8px;border:0;border-radius:999px;background:var(--sky);color:#fff;padding:0 22px;height:60px;font-weight:600}
+.play svg{width:26px;height:26px;fill:#fff}
+.play.big{height:76px;padding:0 30px}
+.play.big svg{width:34px;height:34px}
+.play.bo-play{background:var(--saffron);color:#22191B}
+.play.bo-play svg{fill:#22191B}
+.slow{border:2px solid var(--sky);background:transparent;color:var(--sky);border-radius:999px;height:60px;padding:0 18px;font-weight:600;display:flex;align-items:center;gap:6px}
+.play.big + .slow{height:76px}
+.slow span:first-child{font-size:24px}
+.teach{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}
+.pic{font-size:56px;line-height:1.1}
+.pic.big{font-size:100px;margin-top:6px}
+.pic.num{font-weight:700;font-variant-numeric:tabular-nums;font-family:var(--en);font-size:44px}
+.pic.num.big{font-size:84px}
+.pic.num small{font-family:var(--bo);font-weight:400;margin-left:.15em;color:var(--maroon);font-size:.6em}
+.word{font-size:2.6rem;font-weight:700;letter-spacing:.01em;line-height:1.1;overflow-wrap:anywhere}
+.hint{color:var(--muted);font-size:1rem}
+.hint::before{content:"སྒྲ  ";color:var(--saffron)}
+.meaning{font-size:1.4rem;font-weight:600;color:var(--maroon)}
+.say{margin-top:6px;background:var(--surface);border-radius:var(--r);padding:12px 16px;text-align:center;width:100%}
+.say .bo{font-size:1.05rem}
+.dots{display:flex;gap:16px;justify-content:center;margin-top:10px}
+.dot{width:52px;height:52px;border-radius:50%;border:3px solid var(--saffron);background:transparent}
+.dot.on{background:var(--saffron)}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tile{position:relative;background:var(--card);border:2px solid var(--line);border-radius:var(--r);min-height:140px;padding:12px 8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center;cursor:pointer}
+.tile .tmean{font-size:1rem}
+.tile .vbtn{position:absolute;top:6px;right:6px;margin:0;width:38px;height:38px}
+.tile.ok,.sopt.ok,.lbtn.ok,.dline-opt.ok{border-color:var(--good);background:var(--good-bg)}
+.tile.no,.sopt.no,.lbtn.no,.dline-opt.no{border-color:var(--bad);background:var(--bad-bg)}
+.tile.locked{cursor:default}
+.readword{font-size:2.6rem;font-weight:700;text-align:center;padding:10px 0;overflow-wrap:anywhere}
+.ask{display:flex;flex-direction:column;align-items:center;gap:2px;text-align:center}
+.sopts{display:grid;gap:10px}
+.sopt{display:flex;align-items:center;gap:14px;background:var(--card);border:2px solid var(--line);border-radius:var(--r);min-height:72px;padding:8px 16px;text-align:left}
+.sopt.sel{border-color:var(--sky);box-shadow:0 0 0 3px color-mix(in srgb,var(--sky) 25%,transparent)}
+.sopt .spk{width:44px;height:44px;border-radius:50%;background:var(--sky);display:grid;place-items:center;flex:none}
+.sopt .spk svg{width:22px;height:22px;fill:#fff}
+.sopt .sw{font-size:1.35rem;font-weight:600}
+.fb{border-radius:var(--r);padding:14px 16px;display:grid;gap:10px}
+.fb.good{background:var(--good-bg)} .fb.bad{background:var(--bad-bg)}
+.fb-h{display:flex;align-items:baseline;gap:10px;font-weight:700;flex-wrap:wrap}
+.fb.good .fb-h .bo{color:var(--good)} .fb.bad .fb-h .bo{color:var(--bad)}
+.fb-ans{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.fb-ans .pic{font-size:36px}
+.fb-ans .pic.num{font-size:28px}
+.fb-ans b{font-size:1.45rem}
+.sentence{font-size:1.9rem;font-weight:700;text-align:center;line-height:1.25}
+.slots{min-height:84px;border:2px dashed var(--line);border-radius:var(--r);padding:12px;display:flex;flex-wrap:wrap;gap:10px;align-content:flex-start}
+.slot-ph{color:var(--muted);font-size:1.6rem;padding:0 6px}
+.pool{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;min-height:64px}
+.wchip{border:2px solid var(--line);background:var(--card);border-radius:14px;min-height:56px;padding:6px 16px;font-size:1.3rem;font-weight:600}
+.slots .wchip{border-color:var(--sky)}
+.letter{font-size:7rem;font-weight:700;line-height:1;text-align:center;color:var(--maroon)}
+.letter span{font-size:.6em;margin-left:.2em;color:var(--ink)}
+.lex{display:flex;align-items:center;justify-content:center;gap:12px}
+.lex .word{font-size:2.2rem}
+.lex mark{background:var(--saffron-soft);color:var(--maroon);border-radius:6px;padding:0 2px}
+.lbtns{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.lbtn{background:var(--card);border:2px solid var(--line);border-radius:var(--r);min-height:110px;font-size:3.2rem;font-weight:700}
+.section,.done{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px;padding:28px 0}
+.section .ic,.done .ic{font-size:72px}
+.section h2,.done h2{margin:0;font-weight:600;font-size:1.8rem;line-height:1.6}
+.section h2 .bo,.done h2 .bo{font-size:1.8rem}
+.section .count{margin-top:8px;font-weight:700;color:var(--maroon);font-size:1.4rem}
+.sumgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%;margin-top:10px}
+.sumgrid div{background:var(--surface);border-radius:14px;padding:12px 6px}
+.sumgrid b{display:block;font-size:1.8rem;font-variant-numeric:tabular-nums}
+.sumgrid .bo{font-size:.95rem}
+
+/* pattern + dialogue */
+.pattern{background:var(--surface);border-radius:var(--r);padding:18px 16px;display:grid;gap:10px;text-align:center}
+.pattern .pen{font-size:2.2rem;font-weight:700;color:var(--maroon)}
+.pattern .pbo{font-size:1.5rem}
+.pattern .note{text-align:left;font-size:1rem}
+.exrow{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;text-align:left;background:var(--card);border-radius:14px;padding:10px 12px}
+.exrow .play{height:48px;padding:0 14px}
+.exrow .play svg{width:22px;height:22px}
+.exrow b{font-size:1.15rem;display:block}
+.exrow .bo{font-size:1rem}
+.dlines{display:grid;gap:10px}
+.dline{display:grid;grid-template-columns:44px 1fr auto;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.dline.b{background:var(--surface)}
+.dline .who2{font-size:30px;text-align:center}
+.dline b{display:block;font-size:1.1rem}
+.dline .bo{font-size:1rem}
+.dline .play{height:48px;width:48px;padding:0;justify-content:center}
+.dline .play svg{width:22px;height:22px}
+.dline.now{outline:3px solid var(--saffron)}
+.dline-opts{display:grid;gap:10px}
+.dline-opt{position:relative;background:var(--card);border:2px solid var(--line);border-radius:var(--r);padding:12px 54px 12px 14px;min-height:64px;text-align:left;cursor:pointer}
+.dline-opt .vbtn{position:absolute;right:8px;top:50%;transform:translateY(-50%);margin:0}
+
+/* sub screens */
+.subtop h1{margin:0;font-size:1.3rem;display:flex;flex-direction:column;line-height:1.2;min-width:0}
+.subtop h1 .bo{font-size:1.25rem}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin-bottom:14px}
+.panel h3{margin:0 0 10px;font-size:1rem;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.panel h3 .bo{font-size:1.1rem}
+.bignums{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.bignums div{background:var(--surface);border-radius:14px;padding:14px}
+.bignums b{display:block;font-size:2rem;font-variant-numeric:tabular-nums;line-height:1.1}
+.bignums .bo{font-size:1rem}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.cal .wd{text-align:center;font-family:var(--bo);font-size:.8rem;color:var(--muted)}
+.cal .d{aspect-ratio:1;max-width:100%;border-radius:8px;background:var(--surface);display:grid;place-items:center;font-size:.75rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.cal .d.lv1{background:var(--lv1);color:var(--ink)} .cal .d.lv2{background:var(--lv2);color:var(--ink)}
+.cal .d.lv3{background:var(--lv3);color:#fff} .cal .d.lv4{background:var(--lv4);color:#fff}
+.cal .d.today{outline:2px solid var(--ink);outline-offset:1px}
+.cal .d.fut{background:transparent}
+.legend{display:flex;align-items:center;gap:6px;margin-top:10px;font-size:.8rem;color:var(--muted);flex-wrap:wrap}
+.legend i{width:16px;height:16px;border-radius:4px;display:inline-block;background:var(--surface)}
+.urow{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.urow:first-of-type{border-top:0}
+.urow .pic{font-size:26px}
+.urow .bo{font-size:1rem}
+.urow small{font-variant-numeric:tabular-nums;color:var(--muted)}
+.stagehead{margin:18px 2px 8px;font-weight:700;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.stagehead .bo{font-size:1.1rem}
+details.unit{background:var(--card);border:1px solid var(--line);border-radius:var(--r);margin-bottom:10px;overflow:hidden}
+details.unit summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:12px 16px;min-height:64px}
+details.unit summary::-webkit-details-marker{display:none}
+details.unit summary .pic{font-size:30px}
+details.unit summary .t{flex:1;display:flex;flex-direction:column;line-height:1.3;min-width:0}
+details.unit summary .t .bo{font-size:1.05rem}
+.wrow{display:grid;grid-template-columns:56px 1fr auto;gap:10px;align-items:center;width:100%;border-top:1px solid var(--line);padding:10px 16px;min-height:64px}
+.wrow .pic{font-size:30px}
+.wrow .pic.num{font-size:20px}
+.wrow .en{font-weight:700;font-size:1.1rem;background:none;border:0;padding:0;text-align:left;color:var(--sky)}
+.wrow .bo{font-size:1rem;color:var(--muted)}
+.wrow.locked{opacity:.55}
+.uextra{border-top:1px solid var(--line);padding:12px 16px;display:grid;gap:8px}
+.lvl{font-size:.75rem;border-radius:999px;padding:3px 9px;white-space:nowrap}
+.lvl.k{background:var(--good-bg);color:var(--good)} .lvl.l{background:var(--saffron-soft);color:var(--ink)} .lvl.n{background:var(--surface);color:var(--muted)}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.seg button{border:2px solid var(--line);background:var(--card);border-radius:14px;min-height:60px;font-weight:600}
+.seg button.on{border-color:var(--maroon);background:var(--maroon);color:var(--on-maroon)}
+select{width:100%;min-height:56px;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--ink);font:inherit;padding:0 12px}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row .btn{flex:1;min-width:140px}
+.howto{font-size:.95rem}
+.howto li{margin-bottom:8px}
+.howto ul{padding-left:20px;margin:6px 0 0}
+
+/* studio */
+.studio-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 16px;display:grid;gap:10px;text-align:center}
+.studio-card .ctx{font-size:.85rem;color:var(--muted)}
+.studio-card .rtext{font-size:1.8rem;line-height:1.8}
+.recbtn{width:112px;height:112px;border-radius:50%;border:6px solid var(--bad-bg);background:var(--bad);color:#fff;margin:4px auto;display:grid;place-items:center;font-weight:700;font-size:.9rem}
+.recbtn.on{animation:pulse 1.1s infinite;background:var(--bad);border-color:var(--hl)}
+.recbtn i{display:block;width:34px;height:34px;border-radius:50%;background:#fff}
+.recbtn.on i{border-radius:6px;width:30px;height:30px}
+@keyframes pulse{50%{transform:scale(1.06)}}
+.chip{display:inline-block;border-radius:999px;padding:2px 10px;font-size:.78rem}
+.chip.ok{background:var(--good-bg);color:var(--good)} .chip.no{background:var(--surface);color:var(--muted)}
+
+.profiles{flex:1;display:flex;flex-direction:column;justify-content:center;gap:16px;padding:30px 0}
+.profiles h1{margin:0;text-align:center;font-weight:600;font-size:1.8rem;line-height:1.6}
+.profiles h1 .bo{font-size:1.8rem}
+.profiles > .en-sub{text-align:center;margin-top:-12px}
+.pbtn{display:flex;align-items:center;gap:18px;background:var(--card);border:2px solid var(--line);border-radius:var(--r);padding:16px 20px;min-height:100px;text-align:left}
+.pbtn .pic{font-size:54px}
+.pbtn .bo{font-size:1.6rem;font-weight:600;display:block}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+@media (max-width:380px){.word,.readword{font-size:2.2rem}.ring{width:112px;height:112px}.menu .bo{font-size:.9rem}}
+</style>
+
+<div id="app"></div>
+<script type="application/json" id="voicepack">{"clips":{}}</script>
+
+<script>
+/* =========================================================
+   CURRICULUM — 45 topics x 12 words, ordered by how often the words are used.
+   Item: [picture, English, Tibetan meaning, pronunciation hint in Tibetan letters (stage 1 only)]
+   Picture "1~༡" means: show the digit with its Tibetan numeral.
+   Edit any Tibetan here; recordings are matched to the exact Tibetan text.
+   ========================================================= */
+const UNITS=[
+/* ---------------- STAGE 1: survival basics ---------------- */
+{id:"greet",stage:1,pic:"👋",bo:"འཚམས་འདྲི།",en:"Greetings",items:[
+ ["👋","hello","བཀྲ་ཤིས་བདེ་ལེགས།","ཧེ་ལོ།"],
+ ["🙏","thank you","ཐུགས་རྗེ་ཆེ།","ཐེང་ཀྱུ།"],
+ ["🤲","please","གནང་རོགས།","ཕི་ལི་ཟི།"],
+ ["🙇","sorry","དགོངས་དག","སོ་རི།"],
+ ["✅","yes","ལགས་ཡིན།","ཡེ་སི།"],
+ ["❌","no","ལགས་མིན།","ནོ།"],
+ ["👌","okay","འགྲིག་གི","ཨོ་ཁེ།"],
+ ["🙋","excuse me","དགོངས་དག་ཞུ།","ཨེག་སི་ཀྱུཛ་མི།"],
+ ["🌅","good morning","ཞོགས་པ་བདེ་ལེགས།","གུཊ་མོར་ནིང་།"],
+ ["🌙","good night","གཟིམ་ལེགས།","གུཊ་ནའིཊ།"],
+ ["🚶","goodbye","ག་ལེ་ཕེབས།","གུཊ་བའི།"],
+ ["🔄","see you again","ཡང་བསྐྱར་མཇལ་ཡོང་།","སི་ཡུ་ཨ་གེན།"]],
+ phrases:[["Hello, how are you?","བཀྲ་ཤིས་བདེ་ལེགས། ཁྱེད་རང་སྐུ་གཟུགས་བདེ་པོ་ཡིན་པས།"],["I am fine, thank you.","ང་བདེ་པོ་ཡིན། ཐུགས་རྗེ་ཆེ།"],["Nice to meet you.","ཁྱེད་རང་མཇལ་བ་དགའ་པོ་བྱུང་།"]]},
+{id:"people",stage:1,pic:"🧑",bo:"ང་དང་ཁྱེད་རང་།",en:"Me, you, people",items:[
+ ["🙋‍♀️","I","ང་།","ཨའི།"],
+ ["🫵","you","ཁྱེད་རང་།","ཡུ།"],
+ ["👨","he","ཁོ།","ཧི།"],
+ ["👩","she","མོ།","ཤི།"],
+ ["👥","we","ང་ཚོ།","ཝི།"],
+ ["👨‍👩‍👦","they","ཁོང་ཚོ།","དེ།"],
+ ["🫴","my","ངའི།","མའི།"],
+ ["👐","your","ཁྱེད་རང་གི","ཡོར།"],
+ ["🪪","name","མིང་།","ནེམ།"],
+ ["🧑","person","མི།","ཕར་སན།"],
+ ["🧔","man","སྐྱེས་པ།","མེན།"],
+ ["👩‍🦱","woman","བུད་མེད།","ཝུ་མན།"]],
+ phrases:[["What is your name?","ཁྱེད་རང་གི་མཚན་ལ་ག་རེ་ཞུ་གི་ཡོད།"],["My name is Dolma.","ངའི་མིང་ལ་སྒྲོལ་མ་ཟེར།"],["We are friends.","ང་ཚོ་གྲོགས་པོ་ཡིན།"]]},
+{id:"family",stage:1,pic:"👨‍👩‍👧",bo:"ནང་མི།",en:"Family",items:[
+ ["👩‍🍼","mother","ཨ་མ་ལགས།","མ་དར།"],
+ ["👨‍🦳","father","པ་ལགས།","ཕ་དར།"],
+ ["👧","daughter","བུ་མོ།","ཌོ་ཊར།"],
+ ["👦","son","བུ།","སན།"],
+ ["👭","sister","སྲིང་མོ།","སིས་ཊར།"],
+ ["👬","brother","ཕུ་བོ། ནུ་བོ།","བྲ་དར།"],
+ ["👨‍👩‍👧","family","ནང་མི།","ཕེ་མི་ལི།"],
+ ["🤝","friend","གྲོགས་པོ།","ཕྲེནཌ།"],
+ ["🤵","husband","ཁྱོ་ག","ཧཟ་བནཌ།"],
+ ["👰","wife","ཆུང་མ།","ཝའིཕ།"],
+ ["👶","baby","བྱིས་པ།","བེ་བི།"],
+ ["🧒","child","ཕྲུ་གུ།","ཅའིལཌ།"]],
+ phrases:[["This is my daughter.","འདི་ངའི་བུ་མོ་རེད།"],["I have one son.","ང་ལ་བུ་གཅིག་ཡོད།"],["My family lives in Amstelveen.","ངའི་ནང་མི་ཨམ་སི་ཊེལ་ཝེན་ལ་སྡོད་ཀྱི་ཡོད།"]]},
+{id:"num",stage:1,pic:"🔢",bo:"གྲངས་ཀ",en:"Numbers",items:[
+ ["1~༡","one","གཅིག","ཝན།"],
+ ["2~༢","two","གཉིས།","ཐུ།"],
+ ["3~༣","three","གསུམ།","ཐྲི།"],
+ ["4~༤","four","བཞི།","ཕོར།"],
+ ["5~༥","five","ལྔ།","ཕའིབ།"],
+ ["6~༦","six","དྲུག","སིག་སི།"],
+ ["7~༧","seven","བདུན།","སེ་བན།"],
+ ["8~༨","eight","བརྒྱད།","ཨེཊ།"],
+ ["9~༩","nine","དགུ","ནའིན།"],
+ ["10~༡༠","ten","བཅུ།","ཐེན།"],
+ ["0~༠","zero","ཀླད་ཀོར།","ཛི་རོ།"],
+ ["100~༡༠༠","hundred","བརྒྱ།","ཧན་ཌྲེཌ།"]],
+ phrases:[["Two tea, please.","ཇ་གཉིས་གནང་རོགས།"],["I am fifty years old.","ང་ལོ་ལྔ་བཅུ་ཡིན།"],["One, two, three!","གཅིག གཉིས། གསུམ།"]]},
+{id:"quest",stage:1,pic:"❓",bo:"དྲི་བ།",en:"Question words",items:[
+ ["❓","what?","ག་རེ།","ཝཊ།"],
+ ["👤","who?","སུ།","ཧུ།"],
+ ["📍","where?","ག་པར།","ཝེར།"],
+ ["🕰️","when?","ག་དུས།","ཝེན།"],
+ ["🤔","why?","ག་རེ་བྱས་ནས།","ཝའི།"],
+ ["🛠️","how?","ག་འདྲ་བྱས་ནས།","ཧའོ།"],
+ ["💲","how much?","གོང་ག་ཚོད་རེད།","ཧའོ་མཆ།"],
+ ["⚖️","which?","གང་།","ཝིཆ།"],
+ ["👇","this","འདི།","དིས།"],
+ ["☝️","that","དེ།","དེཊ།"],
+ ["📌","here","འདི་ལ།","ཧིར།"],
+ ["🔭","there","ཕ་གིར།","དེར།"]],
+ phrases:[["What is this?","འདི་ག་རེ་རེད།"],["Where is the toilet?","གསང་སྤྱོད་ག་པར་ཡོད་རེད།"],["How much is this?","འདི་གོང་ག་ཚོད་རེད།"]]},
+{id:"verbs1",stage:1,pic:"🏃",bo:"བྱ་ཚིག་དང་པོ།",en:"Everyday verbs",items:[
+ ["🎁","have","ཡོད།","ཧེབ།"],
+ ["🔨","do","བྱེད།","ཌུ།"],
+ ["🏃","go","འགྲོ།","གོ།"],
+ ["🫳","come","ཡོང་།","ཁམ།"],
+ ["🎯","want","དགོས།","ཝནཊ།"],
+ ["😍","like","དགའ་པོ་ཡོད།","ལའིཀ།"],
+ ["🧠","know","ཤེས།","ནོ།"],
+ ["👀","see","མཐོང་།","སི།"],
+ ["🍴","eat","ཟ།","ཨིཊ།"],
+ ["🥤","drink","འཐུང་།","ཌྲིངཀ།"],
+ ["😴","sleep","ཉལ།","སི་ལིཔ།"],
+ ["🧩","understand","གོ།","ཨན་ཌར་སི་ཏེནཌ།"]],
+ phrases:[["I want water.","ང་ལ་ཆུ་དགོས།"],["I don't understand.","ང་ལ་གོ་མ་སོང་།"],["I like tea.","ང་ཇ་ལ་དགའ་པོ་ཡོད།"]]},
+{id:"food",stage:1,pic:"🍵",bo:"ཟས་དང་བཏུང་བ།",en:"Food and drink",items:[
+ ["💧","water","ཆུ།","ཝོ་ཊར།"],
+ ["🍵","tea","ཇ།","ཐི།"],
+ ["☕","coffee","ཀ་བི།","ཀོ་ཕི།"],
+ ["🥛","milk","འོ་མ།","མིལཀ།"],
+ ["🍚","rice","འབྲས།","རའིས།"],
+ ["🍞","bread","བག་ལེབ།","བྲེཌ།"],
+ ["🍖","meat","ཤ","མིཊ།"],
+ ["🥚","egg","སྒོ་ང་།","ཨེག"],
+ ["🍇","fruit","ཤིང་ཏོག","ཕྲུཊ།"],
+ ["🥬","vegetables","སྔོ་ཚལ།","བེཇ་ཊ་བལ་སི།"],
+ ["🍽️","food","ཁ་ལག","ཕུཌ།"],
+ ["🍜","noodles","ཐུག་པ།","ནུ་ཌལ་སི།"]],
+ phrases:[["Water, please.","ཆུ་ཅིག་གནང་རོགས།"],["I don't eat meat.","ང་ཤ་མི་ཟ།"],["The food is good.","ཁ་ལག་ཞིམ་པོ་འདུག"]]},
+{id:"home",stage:1,pic:"🏠",bo:"ཁྱིམ།",en:"At home",items:[
+ ["🏠","house","ཁང་པ།","ཧའོས།"],
+ ["🛋️","room","ཁང་མིག","རུམ།"],
+ ["🚪","door","སྒོ།","ཌོར།"],
+ ["🛏️","bed","ཉལ་ཁྲི།","བེཌ།"],
+ ["🪑","chair","ཀུབ་ཀྱག","ཆེར།"],
+ ["🫕","kitchen","ཐབ་ཚང་།","ཀི་ཆན།"],
+ ["🚻","toilet","གསང་སྤྱོད།","ཐོ་ཡི་ལེཊ།"],
+ ["🔑","key","ལྡེ་མིག","ཁི།"],
+ ["📱","phone","ཁ་པར།","ཕོན།"],
+ ["📺","TV","བརྙན་འཕྲིན།","ཐི་བི།"],
+ ["💡","light","གློག་སྒྲོན།","ལའིཊ།"],
+ ["🪟","window","སྒེའུ་ཁུང་།","ཝིན་ཌོ།"]],
+ phrases:[["This is my house.","འདི་ངའི་ཁང་པ་རེད།"],["Where is the key?","ལྡེ་མིག་ག་པར་ཡོད་རེད།"],["Please open the door.","སྒོ་ཕྱེ་རོགས།"]]},
+{id:"time",stage:1,pic:"🕐",bo:"དུས་ཚོད།",en:"Time",items:[
+ ["📅","today","དེ་རིང་།","ཐུ་ཌེ།"],
+ ["➡️","tomorrow","སང་ཉིན།","ཐུ་མོ་རོ།"],
+ ["⬅️","yesterday","ཁ་སང་།","ཡེས་ཊར་ཌེ།"],
+ ["⏰","now","ད་ལྟ།","ནའོ།"],
+ ["⏳","later","རྗེས་སུ།","ལེ་ཊར།"],
+ ["🌄","morning","ཞོགས་པ།","མོར་ནིང་།"],
+ ["🌤️","afternoon","ཕྱི་དྲོ།","ཨབ་ཊར་ནུན།"],
+ ["🌆","evening","དགོང་དག","ཨིབ་ནིང་།"],
+ ["🌃","night","མཚན་མོ།","ནའིཊ།"],
+ ["🏙️","day","ཉིན་མོ།","ཌེ།"],
+ ["🗓️","week","གཟའ་འཁོར།","ཝིཀ།"],
+ ["🕐","time","དུས་ཚོད།","ཐའིམ།"]],
+ phrases:[["See you tomorrow.","སང་ཉིན་མཇལ་ཡོང་།"],["What time is it?","ཆུ་ཚོད་ག་ཚོད་རེད།"],["I am coming now.","ང་ད་ལྟ་ཡོང་གི་ཡིན།"]]},
+{id:"describe",stage:1,pic:"⚖️",bo:"གནས་ཚུལ་བཤད་སྟངས།",en:"Describing things",items:[
+ ["👍","good","ཡག་པོ།","གུཊ།"],
+ ["👎","bad","ཡག་པོ་མ་རེད།","བེཌ།"],
+ ["🐘","big","ཆེན་པོ།","བིག"],
+ ["🐜","small","ཆུང་ཆུང་།","སི་མོལ།"],
+ ["🔥","hot","ཚ་པོ།","ཧོཊ།"],
+ ["🧊","cold","གྲང་མོ།","ཀོལཌ།"],
+ ["✨","new","གསར་པ།","ནིའུ།"],
+ ["🏚️","old","རྙིང་པ།","ཨོལཌ།"],
+ ["🔢","many","མང་པོ།","མེ་ནི།"],
+ ["🤏","a little","ཉུང་ཉུང་།","ཨ་ལི་ཊལ།"],
+ ["😀","happy","སྐྱིད་པོ།","ཧེ་པི།"],
+ ["🥱","tired","ཐང་ཆད།","ཐའི་ཡརཌ།"]],
+ phrases:[["This is very good.","འདི་ཧ་ཅང་ཡག་པོ་འདུག"],["It is cold today.","དེ་རིང་གྲང་མོ་འདུག"],["I am tired.","ང་ཐང་ཆད་ཀྱི་འདུག"]]},
+{id:"small",stage:1,pic:"🔗",bo:"ཚིག་ཆུང་གལ་ཆེན།",en:"Small important words",items:[
+ ["➕","and","དང་།","ཨེནཌ།"],
+ ["↔️","but","ཡིན་ནའང་།","བཊ།"],
+ ["🔀","or","ཡང་ན།","ཨོར།"],
+ ["🤝🏽","with","མཉམ་དུ།","ཝིཐ།"],
+ ["🚫","not","མ་རེད།","ནོཊ།"],
+ ["‼️","very","ཧ་ཅང་།","བེ་རི།"],
+ ["♻️","also","ཡང་།","ཨོལ་སོ།"],
+ ["1️⃣","only","ཙམ།","ཨོན་ལི།"],
+ ["💯","all","ཚང་མ།","ཨོལ།"],
+ ["🔹","some","ཁ་ཤས།","སམ།"],
+ ["⏫","more","ད་དུང་།","མོར།"],
+ ["🔁","again","ཡང་བསྐྱར།","ཨ་གེན།"]],
+ phrases:[["Tea and milk, please.","ཇ་དང་འོ་མ་གནང་རོགས།"],["Please say it again.","ཡང་བསྐྱར་གསུང་རོགས།"],["Thank you very much.","ཐུགས་རྗེ་ཆེ་ལགས།"]]},
+{id:"body",stage:1,pic:"🙆",bo:"ལུས་པོ།",en:"The body",items:[
+ ["👤","head","མགོ","ཧེཌ།"],
+ ["👁️","eye","མིག","ཨའི།"],
+ ["👂","ear","རྣ་བ།","ཨིར།"],
+ ["👃","nose","སྣ།","ནོཛ།"],
+ ["👄","mouth","ཁ།","མའོཐ།"],
+ ["🦷","tooth","སོ།","ཐུཐ།"],
+ ["✋","hand","ལག་པ།","ཧེནཌ།"],
+ ["🦶","foot","རྐང་པ།","ཕུཊ།"],
+ ["🧍","back","རྒྱབ།","བེཀ།"],
+ ["💇","hair","སྐྲ།","ཧེར།"],
+ ["🤰","stomach","ཕོ་བ།","སི་ཏ་མཀ།"],
+ ["🙆","body","ལུས་པོ།","བོ་ཌི།"]],
+ phrases:[["My head hurts.","ངའི་མགོ་ན་གི་འདུག"],["Please wash your hands.","ལག་པ་བཀྲུ་རོགས།"],["My eyes are tired.","ངའི་མིག་ཐང་ཆད་ཀྱི་འདུག"]]},
+{id:"health",stage:1,pic:"🩺",bo:"འཕྲོད་བསྟེན།",en:"Health",items:[
+ ["🧑‍⚕️","doctor","ཨེམ་ཆི།","ཌོག་ཊར།"],
+ ["🏥","hospital","སྨན་ཁང་།","ཧོས་པི་ཊལ།"],
+ ["💊","medicine","སྨན།","མེ་ཌི་སིན།"],
+ ["🤕","pain","ན་ཟུག","ཕེན།"],
+ ["🤒","sick","ན་ཚ།","སིཀ།"],
+ ["🌡️","fever","ཚ་བ།","ཕི་བར།"],
+ ["😷","cough","གློ་བ།","ཁོཕ།"],
+ ["🆘","help","རོགས་རམ།","ཧེལཔ།"],
+ ["🛌","rest","ངལ་གསོ།","རེསཊ།"],
+ ["🗓️✅","appointment","ཐུག་འཕྲད་དུས་ཚོད།","ཨ་ཕོཡིནཊ་མནཊ།"],
+ ["🩺","GP (family doctor)","ཁྱིམ་ཚང་གི་ཨེམ་ཆི།","ཇི་པི།"],
+ ["🏪","pharmacy","སྨན་ཚོང་ཁང་།","ཕར་མ་སི།"]],
+ phrases:[["I need a doctor.","ང་ལ་ཨེམ་ཆི་དགོས།"],["Please help me.","ང་ལ་རོགས་རམ་གནང་རོགས།"],["I have an appointment.","ང་ལ་ཐུག་འཕྲད་དུས་ཚོད་ཡོད།"]]},
+{id:"places",stage:1,pic:"🏙️",bo:"ས་ཆ།",en:"Places",items:[
+ ["🌆","city","གྲོང་ཁྱེར།","སི་ཊི།"],
+ ["🛣️","street","ལམ་ཁ།","སི་ཏྲིཊ།"],
+ ["🏪","shop","ཚོང་ཁང་།","ཤོཔ།"],
+ ["🧺","market","ཁྲོམ།","མར་ཀེཊ།"],
+ ["🏫","school","སློབ་གྲྭ།","སི་ཀུལ།"],
+ ["🏦","bank","དངུལ་ཁང་།","བེངཀ།"],
+ ["🍴","restaurant","ཟ་ཁང་།","རེས་ཊོ་རནཊ།"],
+ ["🏨","hotel","མགྲོན་ཁང་།","ཧོ་ཊེལ།"],
+ ["🛫","airport","གནམ་ཐང་།","ཨེར་ཕོརཊ།"],
+ ["🚉","station","ས་ཚིགས།","སི་ཊེ་ཤན།"],
+ ["🌳","park","གླིང་ག","པཱརཀ།"],
+ ["🛒","supermarket","ཚོང་ཁང་ཆེན་མོ།","སུ་པར་མར་ཀེཊ།"]],
+ phrases:[["Where is the airport?","གནམ་ཐང་ག་པར་ཡོད་རེད།"],["Let's go to the supermarket.","ང་ཚོ་ཚོང་ཁང་ཆེན་མོར་འགྲོ།"],["The shop is near.","ཚོང་ཁང་ཉེ་པོ་འདུག"]]},
+{id:"verbs2",stage:1,pic:"🗣️",bo:"བྱ་ཚིག་གཉིས་པ།",en:"More everyday verbs",items:[
+ ["💭","say","ཟེར།","སེ།"],
+ ["🗣️","speak","སྐད་ཆ་བཤད།","སི་པིཀ།"],
+ ["🎀","give","སྤྲོད།","གིབ།"],
+ ["✊","take","ལེན།","ཐེཀ།"],
+ ["🛍️","buy","ཉོ།","བའི།"],
+ ["💸","pay","རིན་སྤྲོད།","ཕེ།"],
+ ["💼","work","ལས་ཀ","ཝརཀ།"],
+ ["🏡","live","སྡོད།","ལིབ།"],
+ ["⏱️","wait","སྒུག","ཝེཊ།"],
+ ["🛠️","make","བཟོ།","མེཀ།"],
+ ["🔍","look","ལྟ།","ལུཀ།"],
+ ["📖","read","ཀློག","རིཌ།"]],
+ phrases:[["Please speak slowly.","ཀ་ལེ་ཀ་ལེ་གསུང་རོགས།"],["Please wait a little.","ཉུང་ཉུང་སྒུག་རོགས།"],["I live in Amstelveen.","ང་ཨམ་སི་ཊེལ་ཝེན་ལ་སྡོད་ཀྱི་ཡོད།"]]},
+
+/* ---------------- STAGE 2: building sentences ---------------- */
+{id:"iam",stage:2,pic:"🙋",bo:"I am",en:"I am …",
+ pattern:{en:"I am …",bo:"ང་ … ཡིན།",note:"ཨིན་ཇིའི་སྐད་ལ་ 'I am' ཟེར་བ་དེ་ 'ང་ … ཡིན།' ཟེར་བ་དང་དོན་གཅིག་པ་རེད། 'I am not' ཟེར་བ་དེ་ 'ང་ … མིན།' རེད།",ex:[["I am a mother.","ང་ཨ་མ་ཞིག་ཡིན།"],["I am not tired.","ང་ཐང་ཆད་མེད།"]]},
+ items:[
+ ["⛔","am not","མིན།"],
+ ["🛬","from","ནས།"],
+ ["🏔️","Tibetan","བོད་པ།"],
+ ["🏃‍♀️","busy","ལས་ཀ་མང་པོ།"],
+ ["🏖️","free","ལོང་ཡོད།"],
+ ["🏁","ready","གྲ་སྒྲིག་ཡོད།"],
+ ["🐌","late","ཕྱི་པོ།"],
+ ["🐓","early","སྔ་པོ།"],
+ ["🧑‍🏫","teacher","དགེ་རྒན།"],
+ ["🧑‍🎓","student","སློབ་མ།"],
+ ["🧑‍🌾","farmer","ཞིང་པ།"],
+ ["🧍‍♀️","alone","ཁེར་རྐྱང་།"]],
+ phrases:[["I am from Tibet.","ང་བོད་ནས་ཡིན།"],["I am not busy.","ང་ལས་ཀ་མང་པོ་མེད།"],["Are you ready?","ཁྱེད་རང་གྲ་སྒྲིག་ཡོད་པས།"]]},
+{id:"thisis",stage:2,pic:"👇",bo:"This is",en:"This is …",
+ pattern:{en:"This is …",bo:"འདི་ … རེད།",note:"'This is' ཟེར་བ་དེ་ 'འདི་ … རེད།' ཡིན། 'That is' ཟེར་བ་དེ་ 'དེ་ … རེད།' ཡིན། ཉེ་པོ་ལ་ this ཐག་རིང་ལ་ that ཟེར།",ex:[["This is my phone.","འདི་ངའི་ཁ་པར་རེད།"],["That is a temple.","དེ་ལྷ་ཁང་ཞིག་རེད།"]]},
+ items:[
+ ["👜","bag","ཁུག་མ།"],
+ ["💵","money","སྒོར་མོ།"],
+ ["🚗","car","མོ་ཊ།"],
+ ["📕","book","དེབ།"],
+ ["👕","clothes","གྱོན་ཆས།"],
+ ["👟","shoes","ལྷམ།"],
+ ["🍶","cup","ཕོར་པ།"],
+ ["💻","computer","གློག་ཀླད།"],
+ ["🖊️","pen","སྨྱུ་གུ།"],
+ ["📄","paper","ཤོག་བུ།"],
+ ["📦","box","སྒམ།"],
+ ["⌚","watch","ལག་ཆུ་ཚོད།"]],
+ phrases:[["This is my bag.","འདི་ངའི་ཁུག་མ་རེད།"],["That is not my car.","དེ་ངའི་མོ་ཊ་མ་རེད།"],["Is this your book?","འདི་ཁྱེད་རང་གི་དེབ་རེད་པས།"]]},
+{id:"ihave",stage:2,pic:"🎁",bo:"I have",en:"I have … (bigger numbers)",
+ pattern:{en:"I have …",bo:"ང་ལ་ … ཡོད།",note:"'I have' ཟེར་བ་དེ་ 'ང་ལ་ … ཡོད།' ཡིན། 'I don't have' ཟེར་བ་དེ་ 'ང་ལ་ … མེད།' ཡིན།",ex:[["I have two daughters.","ང་ལ་བུ་མོ་གཉིས་ཡོད།"],["I don't have money.","ང་ལ་སྒོར་མོ་མེད།"]]},
+ items:[
+ ["20~༢༠","twenty","ཉི་ཤུ།"],
+ ["30~༣༠","thirty","སུམ་ཅུ།"],
+ ["40~༤༠","forty","བཞི་བཅུ།"],
+ ["50~༥༠","fifty","ལྔ་བཅུ།"],
+ ["60~༦༠","sixty","དྲུག་ཅུ།"],
+ ["70~༧༠","seventy","བདུན་ཅུ།"],
+ ["80~༨༠","eighty","བརྒྱད་ཅུ།"],
+ ["90~༩༠","ninety","དགུ་བཅུ།"],
+ ["1000~༡༠༠༠","thousand","སྟོང་།"],
+ ["🥇","first","དང་པོ།"],
+ ["🥈","second","གཉིས་པ།"],
+ ["½","half","ཕྱེད་ཀ"]],
+ phrases:[["I have a phone.","ང་ལ་ཁ་པར་ཞིག་ཡོད།"],["I don't have time.","ང་ལ་དུས་ཚོད་མེད།"],["It is twenty.","འདི་ཉི་ཤུ་རེད།"]]},
+{id:"iwant",stage:2,pic:"🎯",bo:"I want",en:"I want …",
+ pattern:{en:"I want …",bo:"ང་ལ་ … དགོས།",note:"'I want' དང་ 'I need' གཉིས་ཀ་ 'ང་ལ་ … དགོས།' ཟེར་བ་ཡིན། ཞེ་ས་ཞུ་དགོས་ན་མཇུག་ལ་ please ཟེར།",ex:[["I want tea, please.","ང་ལ་ཇ་ཞིག་གནང་རོགས།"],["I need help.","ང་ལ་རོགས་རམ་དགོས།"]]},
+ items:[
+ ["🙏🏽","need","དགོས་མཁོ།"],
+ ["🧂","salt","ཚྭ།"],
+ ["🍬","sugar","ཀ་ར།"],
+ ["🍗","chicken","བྱ་ཤ"],
+ ["🐟","fish","ཉ།"],
+ ["🥔","potato","ཞོག་ཁོག"],
+ ["🍎","apple","ཀུ་ཤུ།"],
+ ["🍲","soup","ཐང་།"],
+ ["🍺","beer","ཆང་།"],
+ ["🫖","butter tea","བོད་ཇ།"],
+ ["🥟","dumplings","མོག་མོག"],
+ ["🛑","enough","འདང་།"]],
+ phrases:[["I want butter tea.","ང་ལ་བོད་ཇ་དགོས།"],["A little more, please.","ད་དུང་ཉུང་ཉུང་གནང་རོགས།"],["That is enough, thank you.","འདང་སོང་། ཐུགས་རྗེ་ཆེ།"]]},
+{id:"ilike",stage:2,pic:"😍",bo:"I like",en:"I like …",
+ pattern:{en:"I like …",bo:"ང་ … ལ་དགའ་པོ་ཡོད།",note:"'I like' ཟེར་བ་དེ་ 'ང་ … ལ་དགའ་པོ་ཡོད།' ཡིན། 'I don't like' ཟེར་བ་དེ་ 'ང་ … ལ་དགའ་པོ་མེད།' ཡིན།",ex:[["I like music.","ང་རོལ་མོ་ལ་དགའ་པོ་ཡོད།"],["I don't like coffee.","ང་ཀ་བི་ལ་དགའ་པོ་མེད།"]]},
+ items:[
+ ["🎵","music","རོལ་མོ།"],
+ ["🎤","song","གཞས།"],
+ ["💃","dance","ཞབས་བྲོ།"],
+ ["🎬","movie","གློག་བརྙན།"],
+ ["🎲","game","རྩེད་མོ།"],
+ ["⚽","sport","ལུས་རྩལ།"],
+ ["📷","photo","པར།"],
+ ["🪴","garden","ལྡུམ་ར།"],
+ ["🌸","flower","མེ་ཏོག"],
+ ["🍳","cook","ཁ་ལག་བཟོ།"],
+ ["📿","pray","སྨོན་ལམ་འདེབས།"],
+ ["🖌️","painting","རི་མོ།"]],
+ phrases:[["I like to cook.","ང་ཁ་ལག་བཟོ་རྒྱུར་དགའ་པོ་ཡོད།"],["Do you like tea?","ཁྱེད་རང་ཇ་ལ་དགའ་པོ་ཡོད་པས།"],["I don't like cold weather.","ང་གནམ་གཤིས་གྲང་མོ་ལ་དགའ་པོ་མེད།"]]},
+{id:"whereis",stage:2,pic:"📍",bo:"Where is",en:"Where is …?",
+ pattern:{en:"Where is …?",bo:"… ག་པར་ཡོད་རེད།",note:"'Where is' ཟེར་བ་དེ་ ' … ག་པར་ཡོད་རེད།' ཡིན། ལན་ལ་ 'It is here' 'It is there' ཟེར།",ex:[["Where is my phone?","ངའི་ཁ་པར་ག་པར་ཡོད་རེད།"],["It is in the bag.","ཁུག་མའི་ནང་ལ་ཡོད།"]]},
+ items:[
+ ["👈","left","གཡོན།"],
+ ["👉","right","གཡས།"],
+ ["⬆️","straight","ཐད་ཀར།"],
+ ["🧲","near","ཉེ་པོ།"],
+ ["🛤️","far","ཐག་རིང་པོ།"],
+ ["📥","in","ནང་ལ།"],
+ ["🔝","on","སྟེང་ལ།"],
+ ["⤵️","under","འོག་ལ།"],
+ ["👫","next to","འགྲམ་ལ།"],
+ ["⏩","in front","མདུན་ལ།"],
+ ["⏪","behind","རྒྱབ་ལ།"],
+ ["🌄","outside","ཕྱི་ལོགས།"]],
+ phrases:[["Please turn left.","གཡོན་ལ་འཁོར་རོགས།"],["The key is in the bag.","ལྡེ་མིག་ཁུག་མའི་ནང་ལ་ཡོད།"],["Is it far?","ཐག་རིང་པོ་ཡོད་དམ།"]]},
+{id:"ican",stage:2,pic:"💪",bo:"I can",en:"I can …",
+ pattern:{en:"I can …",bo:"ང་ … ཐུབ།",note:"'I can' ཟེར་བ་དེ་ 'ང་ … ཐུབ།' ཡིན། 'I can't' ཟེར་བ་དེ་ 'ང་ … མི་ཐུབ།' ཡིན། 'Can you …?' ཟེར་ན་ 'ཁྱེད་རང་ … ཐུབ་བམ།' ཡིན།",ex:[["I can speak a little English.","ང་ཨིན་ཇིའི་སྐད་ཉུང་ཉུང་བཤད་ཐུབ།"],["Can you help me?","ཁྱེད་རང་གིས་ང་ལ་རོགས་རམ་བྱེད་ཐུབ་བམ།"]]},
+ items:[
+ ["💪","can","ཐུབ།"],
+ ["✍️","write","འབྲི།"],
+ ["🎧","listen","ཉན།"],
+ ["🔓","open","ཕྱེ།"],
+ ["🔒","close","རྒྱག"],
+ ["🧘","sit","སྡོད།"],
+ ["🧍‍♂️","stand","ལངས།"],
+ ["👣","walk","གོམ་པ་སྤོ།"],
+ ["🏃‍♂️","run","རྒྱུག"],
+ ["📞","call","ཁ་པར་གཏོང་།"],
+ ["🚘","drive","མོ་ཊ་གཏོང་།"],
+ ["🎒","carry","ཁུར།"]],
+ phrases:[["Please sit down.","བཞུགས་རོགས།"],["Please call me.","ང་ལ་ཁ་པར་གཏོང་རོགས།"],["I can't hear you.","ཁྱེད་རང་གི་སྐད་ཆ་གོ་མ་ཐུབ།"]]},
+{id:"doyou",stage:2,pic:"🗨️",bo:"Do you",en:"Do you …? (asking)",
+ pattern:{en:"Do you …?",bo:"ཁྱེད་རང་ … ཡོད་པས།",note:"དྲི་བ་འདྲི་དུས་ཚིག་གྲུབ་ཀྱི་ཐོག་མར་ 'Do you' ཟེར། ལན་ལ་ 'Yes, I do.' ཡང་ན་ 'No, I don't.' ཟེར།",ex:[["Do you speak English?","ཁྱེད་རང་ཨིན་ཇིའི་སྐད་བཤད་ཀྱི་ཡོད་པས།"],["Do you have water?","ཁྱེད་རང་ལ་ཆུ་ཡོད་པས།"]]},
+ items:[
+ ["🔤","English","ཨིན་ཇིའི་སྐད།"],
+ ["📜","Tibetan language","བོད་སྐད།"],
+ ["🀄","Chinese","རྒྱ་སྐད།"],
+ ["💬","language","སྐད་ཡིག"],
+ ["🔠","word","མིང་ཚིག"],
+ ["❔","question","དྲི་བ།"],
+ ["💡","answer","ལན།"],
+ ["🐢","slowly","ཀ་ལེ་ཀ་ལེ།"],
+ ["⚡","fast","མགྱོགས་པོ།"],
+ ["📢","loud","སྐད་ཆེན་པོ།"],
+ ["🤫","quiet","ཁ་ཁུ་སིམ།"],
+ ["🆗","right / correct","ཏག་ཏག"]],
+ phrases:[["Do you speak Tibetan?","ཁྱེད་རང་བོད་སྐད་བཤད་ཀྱི་ཡོད་པས།"],["What does this word mean?","མིང་ཚིག་འདིའི་དོན་ག་རེ་རེད།"],["Yes, that is right.","ལགས་ཡིན། དེ་ཏག་ཏག་རེད།"]]},
+{id:"thereis",stage:2,pic:"⛅",bo:"There is",en:"There is … (weather, nature)",
+ pattern:{en:"There is …",bo:"… ཡོད། / … འདུག",note:"'There is' ཟེར་བ་དེ་ ' … ཡོད།' ཡིན། 'There is no' ཟེར་བ་དེ་ ' … མེད།' ཡིན། མང་པོ་ཡིན་ན་ 'There are' ཟེར།",ex:[["There is a shop here.","འདི་ལ་ཚོང་ཁང་ཞིག་ཡོད།"],["There is no water.","ཆུ་མེད།"]]},
+ items:[
+ ["🌦️","weather","གནམ་གཤིས།"],
+ ["🌞","sun","ཉི་མ།"],
+ ["🌧️","rain","ཆར་པ།"],
+ ["❄️","snow","ཁ་བ།"],
+ ["💨","wind","རླུང་།"],
+ ["☁️","cloud","སྤྲིན།"],
+ ["🌌","sky","གནམ།"],
+ ["⛰️","mountain","རི།"],
+ ["🏞️","river","གཙང་པོ།"],
+ ["🌲","tree","ལྗོན་ཤིང་།"],
+ ["🌕","moon","ཟླ་བ།"],
+ ["⭐","star","སྐར་མ།"]],
+ phrases:[["It is sunny today.","དེ་རིང་ཉི་མ་ཤར་འདུག"],["There is a lot of snow.","ཁ་བ་མང་པོ་འདུག"],["There are many mountains in Tibet.","བོད་ལ་རི་མང་པོ་ཡོད།"]]},
+{id:"iwill",stage:2,pic:"🔮",bo:"I will",en:"I will … (days of the week)",
+ pattern:{en:"I will …",bo:"ང་ … གི་ཡིན།",note:"མ་འོངས་པར་བྱེད་རྒྱུའི་བྱ་བ་བཤད་དུས་ 'I will' ཟེར། 'ང་ … གི་ཡིན།' དང་དོན་གཅིག་པ་རེད།",ex:[["I will come tomorrow.","ང་སང་ཉིན་ཡོང་གི་ཡིན།"],["I will call you.","ང་ཁྱེད་རང་ལ་ཁ་པར་གཏོང་གི་ཡིན།"]]},
+ items:[
+ ["Mo~ཟླ","Monday","གཟའ་ཟླ་བ།"],
+ ["Tu~མིག","Tuesday","གཟའ་མིག་དམར།"],
+ ["We~ལྷག","Wednesday","གཟའ་ལྷག་པ།"],
+ ["Th~ཕུར","Thursday","གཟའ་ཕུར་བུ།"],
+ ["Fr~སངས","Friday","གཟའ་པ་སངས།"],
+ ["Sa~སྤེན","Saturday","གཟའ་སྤེན་པ།"],
+ ["Su~ཉི","Sunday","གཟའ་ཉི་མ།"],
+ ["🔜","soon","མྱུར་དུ།"],
+ ["⏭️","next week","གཟའ་འཁོར་རྗེས་མ།"],
+ ["📆","month","ཟླ་བ།"],
+ ["🎆","year","ལོ།"],
+ ["🎂","birthday","སྐྱེས་སྐར།"]],
+ phrases:[["I will come on Sunday.","ང་གཟའ་ཉི་མ་ལ་ཡོང་གི་ཡིན།"],["See you next week.","གཟའ་འཁོར་རྗེས་མར་མཇལ་ཡོང་།"],["Happy birthday!","སྐྱེས་སྐར་ལ་བཀྲ་ཤིས་བདེ་ལེགས།"]]},
+{id:"past1",stage:2,pic:"⏮️",bo:"Past",en:"Yesterday I … (past)",
+ pattern:{en:"I went / I ate",bo:"ང་ … པ་ཡིན།",note:"བྱས་ཟིན་པའི་བྱ་བ་བཤད་དུས་ཨིན་ཇིའི་བྱ་ཚིག་འགྱུར་གྱི་ཡོད། go → went, eat → ate, see → saw.",ex:[["I went to the market.","ང་ཁྲོམ་ལ་ཕྱིན་པ་ཡིན།"],["I ate rice.","ངས་འབྲས་ཟས་པ་ཡིན།"]]},
+ items:[
+ ["🏃⏮","went","ཕྱིན་པ།"],
+ ["🫳⏮","came","ཡོང་བ།"],
+ ["🍴⏮","ate","ཟས་པ།"],
+ ["🥤⏮","drank","བཏུང་བ།"],
+ ["👀⏮","saw","མཐོང་བ།"],
+ ["💭⏮","said","བཤད་པ།"],
+ ["🔨⏮","did","བྱས་པ།"],
+ ["🛍️⏮","bought","ཉོས་པ།"],
+ ["😴⏮","slept","ཉལ་བ།"],
+ ["📍⏮","was","ཡིན་པ། ཡོད་པ།"],
+ ["🎁⏮","had","ཡོད་པ་རེད།"],
+ ["🛠️⏮","made","བཟོས་པ།"]],
+ phrases:[["I went to Amsterdam yesterday.","ང་ཁ་སང་ཨམ་སི་ཊར་ཌམ་ལ་ཕྱིན་པ་ཡིན།"],["What did you eat?","ཁྱེད་རང་ག་རེ་བཞེས་པ་ཡིན།"],["I slept well.","ངས་གཉིད་ཡག་པོ་ཁུག་བྱུང་།"]]},
+{id:"feel",stage:2,pic:"😊",bo:"Feelings",en:"How I feel",
+ pattern:{en:"I am happy / sad",bo:"ང་ … འདུག",note:"སེམས་ཚོར་བཤད་དུས་ 'I am' སྔོན་ལ་བཤད། དཔེར་ན། 'I am happy.' 'I am hungry.' ཁྱེད་རང་ལ་དྲི་ན་ 'Are you okay?' ཟེར།",ex:[["I am very happy.","ང་ཧ་ཅང་སྐྱིད་པོ་འདུག"],["Are you okay?","ཁྱེད་རང་བདེ་པོ་ཡིན་པས།"]]},
+ items:[
+ ["😢","sad","སྐྱོ་པོ།"],
+ ["😠","angry","ཁོང་ཁྲོ།"],
+ ["😨","afraid","སྐྲག་པ།"],
+ ["😋","hungry","ལྟོགས་པ།"],
+ ["🫗","thirsty","སྐོམ་པ།"],
+ ["😪","sleepy","གཉིད་ཡོང་།"],
+ ["😟","worried","སེམས་ཁྲལ།"],
+ ["😮","surprised","ཡ་མཚན།"],
+ ["💕","love","བྱམས་པ།"],
+ ["💭💕","miss","དྲན་པ།"],
+ ["😌","healthy","བདེ་ཐང་།"],
+ ["🙂","okay / fine","བདེ་པོ།"]],
+ phrases:[["I am hungry.","ང་ལྟོགས་ཀྱི་འདུག"],["I miss you.","ང་ཁྱེད་རང་དྲན་གྱི་འདུག"],["Don't worry.","སེམས་ཁྲལ་མ་བྱེད།"]]},
+{id:"routine",stage:2,pic:"🔂",bo:"Every day",en:"Every day I …",
+ pattern:{en:"Every day I …",bo:"ང་ཉིན་རེ་བཞིན་ …",note:"'Every day' ཟེར་བ་དེ་ 'ཉིན་རེ་བཞིན།' ཡིན། ཚིག་གྲུབ་ཐོག་མའམ་མཇུག་ལ་འཇོག་ཆོག",ex:[["Every day I drink tea.","ང་ཉིན་རེ་བཞིན་ཇ་འཐུང་གི་ཡོད།"],["Every morning I pray.","ང་ཞོགས་པ་རེ་བཞིན་སྨོན་ལམ་འདེབས་ཀྱི་ཡོད།"]]},
+ items:[
+ ["⏰🛏️","wake up","གཉིད་སད།"],
+ ["🧼","wash","བཀྲུ།"],
+ ["🚿","shower","ཁྲུས།"],
+ ["🧹","clean","གཙང་སེལ།"],
+ ["👗","get dressed","གྱོན།"],
+ ["🪥","brush teeth","སོ་བཀྲུ།"],
+ ["🔂","every day","ཉིན་རེ་བཞིན།"],
+ ["♾️","always","རྟག་པར།"],
+ ["🎲🔁","sometimes","སྐབས་རེ།"],
+ ["🙅","never","ནམ་ཡང་མི།"],
+ ["▶️","start","འགོ་འཛུགས།"],
+ ["🏳️","finish","ཚར།"]],
+ phrases:[["I wake up at six.","ང་ཆུ་ཚོད་དྲུག་པར་གཉིད་སད་ཀྱི་ཡོད།"],["I always drink tea in the morning.","ང་ཞོགས་པ་རྟག་པར་ཇ་འཐུང་གི་ཡོད།"],["I am finished.","ངའི་ཚར་སོང་།"]]},
+{id:"heshe",stage:2,pic:"👫",bo:"He is / She is",en:"He is … / She is …",
+ pattern:{en:"He is … / She is …",bo:"ཁོ་ … རེད། / མོ་ … རེད།",note:"སྐྱེས་པ་ཡིན་ན་ 'He' བུད་མེད་ཡིན་ན་ 'She' ཟེར། 'He is tall' ཟེར་བ་དེ་ 'ཁོ་རིང་པོ་རེད།' ཡིན།",ex:[["She is kind.","མོ་སེམས་བཟང་པོ་རེད།"],["He is my brother.","ཁོ་ངའི་ཕུ་བོ་རེད།"]]},
+ items:[
+ ["🦒","tall","རིང་པོ།"],
+ ["🐁","short","ཐུང་ཐུང་།"],
+ ["🌱","young","གཞོན་པ།"],
+ ["👴","elderly","རྒད་པོ།"],
+ ["🤗","kind","སེམས་བཟང་པོ།"],
+ ["🎓","clever","བློ་གྲོས་ཅན།"],
+ ["😂","funny","བཞད་གད་ཅན།"],
+ ["🏋️","strong","ཤུགས་ཆེན་པོ།"],
+ ["😎","handsome","བཟང་པོ།"],
+ ["🫂","friendly","འཆམ་པོ།"],
+ ["🏘️","neighbour","ཁྱིམ་མཚེས།"],
+ ["🛎️","guest","མགྲོན་པོ།"]],
+ phrases:[["She is very kind.","མོ་ཧ་ཅང་སེམས་བཟང་པོ་རེད།"],["He is tall.","ཁོ་རིང་པོ་རེད།"],["Welcome, please come in.","ཕེབས་ཕེབས། ནང་ལ་ཕེབས་རོགས།"]]},
+{id:"colours",stage:2,pic:"🎨",bo:"Colours",en:"Colours and clothes",
+ pattern:{en:"a red hat",bo:"ཞྭ་མོ་དམར་པོ།",note:"ཨིན་ཇིའི་སྐད་ལ་ཁ་དོག་དེ་དངོས་པོའི་སྔོན་ལ་བཤད། 'a red hat' (ཞྭ་མོ་དམར་པོ།) 'a white coat' (ཕྱུ་པ་དཀར་པོ།)",ex:[["I want a blue coat.","ང་ལ་ཕྱུ་པ་སྔོན་པོ་ཞིག་དགོས།"],["Her hat is red.","མོའི་ཞྭ་མོ་དམར་པོ་རེད།"]]},
+ items:[
+ ["🔴","red","དམར་པོ།"],
+ ["⚪","white","དཀར་པོ།"],
+ ["⚫","black","ནག་པོ།"],
+ ["🔵","blue","སྔོན་པོ།"],
+ ["🟡","yellow","སེར་པོ།"],
+ ["🟢","green","ལྗང་ཁུ།"],
+ ["🧢","hat","ཞྭ་མོ།"],
+ ["🧥","coat","ཕྱུ་པ།"],
+ ["👖","trousers","དོར་མ།"],
+ ["🧦","socks","རྐང་འབོབ།"],
+ ["💍","ring","སོར་གདུབ།"],
+ ["🌈","colour","ཁ་དོག"]],
+ phrases:[["The sky is blue.","གནམ་སྔོན་པོ་འདུག"],["I like red.","ང་དམར་པོ་ལ་དགའ་པོ་ཡོད།"],["This coat is beautiful.","ཕྱུ་པ་འདི་མཛེས་པོ་འདུག"]]},
+
+/* ---------------- STAGE 3: real conversations ---------------- */
+{id:"resto",stage:3,pic:"🍴",bo:"ཟ་ཁང་།",en:"At a restaurant",items:[
+ ["📋","menu","ཟས་ཐོ།"],
+ ["🧑‍🍳","waiter","ཞབས་ཞུ་བ།"],
+ ["🧾","bill","རིན་ཐོ།"],
+ ["🌶️","spicy","ཁ་ཚ་པོ།"],
+ ["🍯","sweet","མངར་མོ།"],
+ ["😋✨","delicious","ཞིམ་པོ།"],
+ ["🥗","vegetarian","ཤ་མི་ཟ་མཁན།"],
+ ["🪵","table","ཅོག་ཙེ།"],
+ ["🥄","spoon","ཐུར་མ།"],
+ ["🥢","chopsticks","ཁོ་ཙེ།"],
+ ["🥣","bowl","ཕོར་པ་ཆེན་པོ།"],
+ ["🔪","knife","གྲི།"]],
+ phrases:[["The bill, please.","རིན་ཐོ་གནང་རོགས།"],["This is delicious.","འདི་ཞིམ་པོ་འདུག"],["I am vegetarian.","ང་ཤ་མི་ཟ་མཁན་ཡིན།"]],
+ dialogue:[["A","Hello. A table for two, please.","བཀྲ་ཤིས་བདེ་ལེགས། མི་གཉིས་ཀྱི་ཅོག་ཙེ་ཞིག་གནང་རོགས།"],["B","Here is the menu.","འདི་ཟས་ཐོ་རེད།"],["A","Noodles, please. Not spicy.","ཐུག་པ་གནང་རོགས། ཁ་ཚ་པོ་མ་བཟོ་རོགས།"],["B","Okay. Anything to drink?","འགྲིག་གི བཏུང་བ་ག་རེ་དགོས།"],["A","Tea, please. Thank you.","ཇ་གནང་རོགས། ཐུགས་རྗེ་ཆེ།"]]},
+{id:"transport",stage:3,pic:"🚌",bo:"འགྲུལ་འཁོར།",en:"Getting around",items:[
+ ["🚌","bus","རླངས་འཁོར་ཆེན་མོ།"],
+ ["🚋","tram","གློག་འཁོར།"],
+ ["🚆","train","མེ་འཁོར།"],
+ ["🚇","metro","ས་འོག་མེ་འཁོར།"],
+ ["🚲","bicycle","རྐང་འཁོར།"],
+ ["🎫","ticket","འཛུལ་ཐོ།"],
+ ["💳🚋","travel card","འགྲུལ་སྐྱོད་ལག་འཁྱེར།"],
+ ["✋🏻","stop","མཚམས་འཇོག"],
+ ["🏁🚩","arrive","སླེབས།"],
+ ["🚪🚶","leave","ཐོན།"],
+ ["🚉🚶","platform","མེ་འཁོར་འགྲེང་ས།"],
+ ["🗺️","map","ས་ཁྲ།"]],
+ phrases:[["Where is the tram stop?","གློག་འཁོར་འགྲེང་ས་ག་པར་ཡོད་རེད།"],["When does the train leave?","མེ་འཁོར་ག་དུས་ཐོན་གྱི་རེད།"],["We have arrived.","ང་ཚོ་སླེབས་སོང་།"]],
+ dialogue:[["A","Excuse me, which tram goes to Amsterdam?","དགོངས་དག་ཞུ། ཨམ་སི་ཊར་ཌམ་ལ་གློག་འཁོར་གང་འགྲོ་གི་རེད།"],["B","Tram five. The stop is over there.","གློག་འཁོར་ཨང་ལྔ་པ་རེད། འགྲེང་ས་ཕ་གིར་ཡོད།"],["A","Thank you. Can I pay with my card?","ཐུགས་རྗེ་ཆེ། ལག་འཁྱེར་ཐོག་རིན་སྤྲོད་ཆོག་གམ།"],["B","Yes. Check in when you get on.","ཆོག ཡར་འཛུལ་དུས་ལག་འཁྱེར་ཐོ་འགོད་གནང་།"]]},
+{id:"travel",stage:3,pic:"🌍",bo:"འགྲུལ་བཞུད།",en:"Travel and countries",items:[
+ ["🌍","travel","འགྲུལ་བཞུད།"],
+ ["🗾","country","རྒྱལ་ཁབ།"],
+ ["✈️","airplane","གནམ་གྲུ།"],
+ ["🚪👋","visit","ལྟ་སྐོར།"],
+ ["🌷","Netherlands","ཧོ་ལན།"],
+ ["🏰","Europe","ཡོ་རོབ།"],
+ ["🏯","Lhasa","ལྷ་ས།"],
+ ["🏔️🏔️","Tibet","བོད།"],
+ ["🏘️🌷","Amstelveen","ཨམ་སི་ཊེལ་ཝེན།"],
+ ["🚲🏙️","Amsterdam","ཨམ་སི་ཊར་ཌམ།"],
+ ["🌐","world","འཛམ་གླིང་།"],
+ ["⛱️","holiday","གུང་སེང་།"]],
+ phrases:[["I live in the Netherlands now.","ང་ད་ལྟ་ཧོ་ལན་ལ་སྡོད་ཀྱི་ཡོད།"],["Amstelveen is near Amsterdam.","ཨམ་སི་ཊེལ་ཝེན་ཨམ་སི་ཊར་ཌམ་དང་ཉེ་པོ་ཡོད།"],["We are going on holiday.","ང་ཚོ་གུང་སེང་ལ་འགྲོ་གི་ཡིན།"]],
+ dialogue:[["A","Where are you from?","ཁྱེད་རང་ག་ནས་ཡིན།"],["B","I am from Tibet. I live in Amstelveen now.","ང་བོད་ནས་ཡིན། ད་ལྟ་ཨམ་སི་ཊེལ་ཝེན་ལ་སྡོད་ཀྱི་ཡོད།"],["A","Do you like the Netherlands?","ཁྱེད་རང་ཧོ་ལན་ལ་དགའ་པོ་ཡོད་པས།"],["B","Yes, but it rains a lot!","ཡོད། ཡིན་ནའང་ཆར་པ་མང་པོ་འབབ་ཀྱི་འདུག"]]},
+{id:"phone",stage:3,pic:"📱",bo:"ཁ་པར་དང་བརྡ་འཕྲིན།",en:"Phone and messages",items:[
+ ["✉️","message","བརྡ་འཕྲིན།"],
+ ["🎥","video","བརྙན་ཟློས།"],
+ ["📶","internet","དྲ་རྒྱ།"],
+ ["🔋","battery","གློག་རྫས།"],
+ ["🔌","charge","གློག་སྣོན།"],
+ ["🔐","password","གསང་ཨང་།"],
+ ["#️⃣","number","ཨང་གྲངས།"],
+ ["📤","send","བསྐུར།"],
+ ["👂🔊","hear","ཐོས།"],
+ ["📹","video call","བརྙན་འཕྲིན་ཁ་པར།"],
+ ["📴","turn off","བསད།"],
+ ["📧","email","གློག་འཕྲིན།"]],
+ phrases:[["Please send me a message.","ང་ལ་བརྡ་འཕྲིན་ཞིག་བསྐུར་རོགས།"],["My phone has no battery.","ངའི་ཁ་པར་ལ་གློག་མེད།"],["Can you hear me?","ངའི་སྐད་ཆ་ཐོས་སམ།"]],
+ dialogue:[["A","Hello? Can you hear me?","ཧ་ལོ། ངའི་སྐད་ཆ་ཐོས་སམ།"],["B","Yes, I can hear you.","ལགས་ཡིན། ཐོས་ཀྱི་འདུག"],["A","I will call you tonight.","ང་དོ་དགོང་ཁ་པར་གཏོང་གི་ཡིན།"],["B","Okay. Video call, please!","འགྲིག་གི བརྙན་འཕྲིན་ཁ་པར་གཏོང་རོགས།"]]},
+{id:"animals",stage:3,pic:"🐂",bo:"སེམས་ཅན།",en:"Animals",items:[
+ ["🐕","dog","ཁྱི།"],
+ ["🐈","cat","ཞི་མི།"],
+ ["🐎","horse","རྟ།"],
+ ["🐂","yak","གཡག"],
+ ["🐑","sheep","ལུག"],
+ ["🐄","cow","བ་མོ།"],
+ ["🐐","goat","ར་མ།"],
+ ["🐖","pig","ཕག་པ།"],
+ ["🐦","bird","བྱ།"],
+ ["🐔","hen","བྱ་མོ།"],
+ ["🐭","mouse","ཙི་ཙི།"],
+ ["🐛","insect","འབུ།"]],
+ phrases:[["I like dogs.","ང་ཁྱི་ལ་དགའ་པོ་ཡོད།"],["We have many yaks.","ང་ཚོར་གཡག་མང་པོ་ཡོད།"],["The cat is sleeping.","ཞི་མི་ཉལ་གྱི་འདུག"]],
+ dialogue:[["A","Do you have animals?","ཁྱེད་རང་ལ་སེམས་ཅན་ཡོད་པས།"],["B","Yes, we have a dog and a cat.","ལགས་ཡིན། ང་ཚོར་ཁྱི་དང་ཞི་མི་ཡོད།"],["A","In Tibet there are many yaks.","བོད་ལ་གཡག་མང་པོ་ཡོད།"],["B","I want to see a yak!","ང་གཡག་ལྟ་འདོད་འདུག"]]},
+{id:"work",stage:3,pic:"💼",bo:"ལས་ཀ",en:"Work and jobs",items:[
+ ["🏢","office","ལས་ཁུངས།"],
+ ["👷","worker","ལས་མི།"],
+ ["🧑‍💼","manager","འགན་འཛིན་པ།"],
+ ["🧑‍🔧","engineer","བཟོ་རིག་པ།"],
+ ["👩‍⚕️","nurse","ནད་གཡོག"],
+ ["🧑‍💻","company","ཀུང་སི།"],
+ ["🤝🏼","meeting","ཚོགས་འདུ།"],
+ ["🧾💵","salary","གླ་ཆ།"],
+ ["🏖️👴","retired","ལས་ཀ་ནས་ངལ་གསོ།"],
+ ["🛒","shopkeeper","ཚོང་པ།"],
+ ["🧑‍🍳🍲","cook (person)","མ་བྱན།"],
+ ["🔧","job","ལས་རིགས།"]],
+ phrases:[["What is your job?","ཁྱེད་རང་གི་ལས་རིགས་ག་རེ་རེད།"],["I am retired.","ང་ལས་ཀ་ནས་ངལ་གསོ་བྱས་ཟིན།"],["My daughter works in an office.","ངའི་བུ་མོ་ལས་ཁུངས་ནང་ལས་ཀ་བྱེད་ཀྱི་ཡོད།"]],
+ dialogue:[["A","What is your job?","ཁྱེད་རང་གི་ལས་རིགས་ག་རེ་རེད།"],["B","I was a farmer in Tibet. And you?","ང་བོད་ལ་ཞིང་པ་ཡིན་པ་ཡིན། ཁྱེད་རང་ཡིན་ན།"],["A","I work for a company.","ང་ཀུང་སི་ཞིག་ལ་ལས་ཀ་བྱེད་ཀྱི་ཡོད།"],["B","Is it a good job?","ལས་རིགས་ཡག་པོ་ཡོད་པས།"],["A","Yes, but I am very busy.","ཡོད། ཡིན་ནའང་ང་ལས་ཀ་མང་པོ་འདུག"]]},
+{id:"visit",stage:3,pic:"🏡",bo:"ནང་མི་ལ་ལྟ་སྐོར།",en:"Visiting family",items:[
+ ["🙌","welcome","ཕེབས་ཕེབས།"],
+ ["🎁🎀","gift","ལག་རྟགས།"],
+ ["💌","invite","གདན་ཞུ།"],
+ ["👨‍👩‍👧‍👦","together","མཉམ་དུ།"],
+ ["🎉","party","དགའ་སྟོན།"],
+ ["💒","wedding","གཉེན་སྟོན།"],
+ ["🫶","hug","འཁྱུད།"],
+ ["🏠🛏️","stay","བསྡད།"],
+ ["😴🌙","sleep well","གཟིམ་ལེགས་གནང་།"],
+ ["🍽️🙏","enjoy your meal","ཞལ་ལག་མཆོད་རོགས།"],
+ ["🥂","cheers","བཀྲ་ཤིས།"],
+ ["📸","take a photo","པར་རྒྱག"]],
+ phrases:[["This is a gift for you.","འདི་ཁྱེད་རང་ལ་ལག་རྟགས་ཡིན།"],["Let's eat together.","ང་ཚོ་མཉམ་དུ་ཁ་ལག་ཟ།"],["Thank you for inviting us.","གདན་ཞུ་གནང་བར་ཐུགས་རྗེ་ཆེ།"]],
+ dialogue:[["A","Welcome! Please come in.","ཕེབས་ཕེབས། ནང་ལ་ཕེབས་རོགས།"],["B","Thank you. This is a gift for you.","ཐུགས་རྗེ་ཆེ། འདི་ཁྱེད་རང་ལ་ལག་རྟགས་ཡིན།"],["A","Oh, thank you! Please sit down.","ཨོ། ཐུགས་རྗེ་ཆེ། བཞུགས་རོགས།"],["B","Your house is beautiful.","ཁྱེད་རང་གི་ཁང་པ་མཛེས་པོ་འདུག"],["A","Would you like tea?","ཇ་མཆོད་དམ།"]]},
+{id:"seasons",stage:3,pic:"🍂",bo:"དུས་ཚིགས།",en:"Seasons and weather",items:[
+ ["🌸🌱","spring","དཔྱིད་ཀ"],
+ ["☀️🏖️","summer","དབྱར་ཀ"],
+ ["🍂","autumn","སྟོན་ཀ"],
+ ["⛄","winter","དགུན་ཀ"],
+ ["🌡️⬆️","warm","དྲོ་པོ།"],
+ ["🍃","cool","བསིལ་པོ།"],
+ ["☂️","umbrella","ཆར་གདུགས།"],
+ ["💦","wet","རློན་པ།"],
+ ["🧊❄️","ice","འཁྱག་རོམ།"],
+ ["⛈️","storm","རླུང་འཚུབ།"],
+ ["🌫️","fog","ན་བུན།"],
+ ["🗓️🍂","season","དུས་ཚིགས།"]],
+ phrases:[["It is warm today.","དེ་རིང་དྲོ་པོ་འདུག"],["Take an umbrella.","ཆར་གདུགས་ཁྱེར་རོགས།"],["I like spring.","ང་དཔྱིད་ཀ་ལ་དགའ་པོ་ཡོད།"]],
+ dialogue:[["A","How is the weather in Lhasa?","ལྷ་སར་གནམ་གཤིས་ག་འདྲ་འདུག"],["B","It is sunny but cold.","ཉི་མ་ཤར་འདུག ཡིན་ནའང་གྲང་མོ་འདུག"],["A","Here it is raining again.","འདི་ལ་ཡང་བསྐྱར་ཆར་པ་འབབ་ཀྱི་འདུག"],["B","Take a warm coat!","ཕྱུ་པ་དྲོ་པོ་ཁྱེར་རོགས།"]]},
+{id:"verbs3",stage:3,pic:"🧭",bo:"བྱ་ཚིག་གསུམ་པ།",en:"Useful verbs",items:[
+ ["🤔💭","think","བསམ་བློ་གཏོང་།"],
+ ["❤️‍🩹","feel","ཚོར།"],
+ ["🔎","find","རྙེད།"],
+ ["🫥","lose","བོར།"],
+ ["🗯️","tell","ཞུ།"],
+ ["🙋‍♂️❔","ask","འདྲི།"],
+ ["🫱","show","སྟོན།"],
+ ["🧪","try","ཚོད་ལྟ།"],
+ ["🧰","use","བེད་སྤྱོད།"],
+ ["📚","learn","སློབ་སྦྱོང་།"],
+ ["🧠✅","remember","དྲན་པ་གསོ།"],
+ ["🧠❌","forget","བརྗེད།"]],
+ phrases:[["I forgot.","ང་བརྗེད་སོང་།"],["Can I ask a question?","དྲི་བ་ཞིག་འདྲི་ཆོག་གམ།"],["I am learning English.","ང་ཨིན་ཇིའི་སྐད་སློབ་སྦྱོང་བྱེད་ཀྱི་ཡོད།"]],
+ dialogue:[["A","I lost my key.","ངའི་ལྡེ་མིག་བོར་སོང་།"],["B","Where did you put it?","ཁྱེད་རང་གིས་ག་པར་བཞག་པ་ཡིན།"],["A","I don't remember.","ང་དྲན་གྱི་མི་འདུག"],["B","Look! It is under the chair.","ལྟོས། ཀུབ་ཀྱག་འོག་ལ་འདུག"]]},
+{id:"past2",stage:3,pic:"📜",bo:"འདས་པའི་བྱ་ཚིག",en:"More past tense",items:[
+ ["🤝⏮","met","ཐུག་པ།"],
+ ["🎀⏮","gave","སྤྲད་པ།"],
+ ["✊⏮","took","བླངས་པ།"],
+ ["🗯️⏮","told","ཞུས་པ།"],
+ ["🧠⏮","knew","ཤེས་པ།"],
+ ["🤔⏮","thought","བསམས་པ།"],
+ ["🔎⏮","found","རྙེད་པ།"],
+ ["🚪⏮","left (went away)","ཐོན་པ།"],
+ ["🫥⏮","lost","བོར་བ།"],
+ ["✍️⏮","wrote","བྲིས་པ།"],
+ ["🏁⏮","arrived","སླེབས་པ།"],
+ ["❤️‍🩹⏮","felt","ཚོར་བ།"]],
+ phrases:[["We met in Lhasa.","ང་ཚོ་ལྷ་སར་ཐུག་པ་ཡིན།"],["She gave me a gift.","མོས་ང་ལ་ལག་རྟགས་སྤྲད་བྱུང་།"],["I found my phone.","ངའི་ཁ་པར་རྙེད་བྱུང་།"]],
+ dialogue:[["A","When did you arrive?","ཁྱེད་རང་ག་དུས་སླེབས་པ་ཡིན།"],["B","I arrived yesterday.","ང་ཁ་སང་སླེབས་པ་ཡིན།"],["A","Did you sleep well?","གཟིམ་ལེགས་བྱུང་ངམ།"],["B","Yes. I felt very tired.","ལགས་ཡིན། ང་ཧ་ཅང་ཐང་ཆད་བྱུང་།"]]},
+{id:"money",stage:3,pic:"💰",bo:"ཉོ་ཚོང་།",en:"Shopping and money",items:[
+ ["🏷️","price","གོང་།"],
+ ["💰","expensive","གོང་ཆེན་པོ།"],
+ ["📉","cheap","གོང་ཆུང་ཆུང་།"],
+ ["🏬","sell","འཚོང་།"],
+ ["💵💵","cash","ལག་ཐོག་གི་སྒོར་མོ།"],
+ ["💳","card","དངུལ་ཁང་ལག་འཁྱེར།"],
+ ["📏","size","ཆེ་ཆུང་།"],
+ ["🆓","for free","རིན་མེད།"],
+ ["➕‼️","too much","མང་དྲགས།"],
+ ["💶","euro","ཡུ་རོ།"],
+ ["🧾✔️","receipt","རིན་འཛིན་ཤོག་བུ།"],
+ ["🛒","shopping","ཉོ་ཆ།"]],
+ phrases:[["It is too expensive.","གོང་ཆེ་དྲགས་འདུག"],["Can I pay by card?","ལག་འཁྱེར་ཐོག་རིན་སྤྲོད་ཆོག་གམ།"],["I will take this one.","ང་འདི་ལེན་གྱི་ཡིན།"]],
+ dialogue:[["A","How much is this coat?","ཕྱུ་པ་འདི་གོང་ག་ཚོད་རེད།"],["B","Eighty euro.","ཡུ་རོ་བརྒྱད་ཅུ་རེད།"],["A","That is too expensive!","གོང་ཆེ་དྲགས་འདུག"],["B","Okay, sixty euro.","འགྲིག་གི ཡུ་རོ་དྲུག་ཅུ།"],["A","Good. I will take it.","ཡག་པོ། ང་ལེན་གྱི་ཡིན།"]]},
+{id:"talk",stage:3,pic:"💬",bo:"གླེང་མོལ་གྱི་ཚིག",en:"Conversation words",items:[
+ ["🤷","maybe","ཕལ་ཆེར།"],
+ ["💯✅","of course","ཡིན་དགོས་ཀྱི་རེད།"],
+ ["😲❔","really?","ངོ་མ་རེད་དམ།"],
+ ["🤔💬","I think","ང་བསམ་ན།"],
+ ["🌟","great","ཧ་ཅང་ཡག་པོ།"],
+ ["🙆‍♀️","no problem","དཀའ་ངལ་མེད།"],
+ ["🤞","I hope","རེ་བ་ཡོད།"],
+ ["👍🏽","agree","མོས་མཐུན།"],
+ ["⏸️","wait a moment","སྐར་མ་གཅིག་སྒུག་རོགས།"],
+ ["📣","let's go","ང་ཚོ་འགྲོ།"],
+ ["😅","never mind","ཕྱོགས་མེད།"],
+ ["👏","well done","ཡག་པོ་བྱུང་།"]],
+ phrases:[["Really? That is great!","ངོ་མ་རེད་དམ། ཧ་ཅང་ཡག་པོ་རེད།"],["No problem.","དཀའ་ངལ་མེད།"],["I think so.","ང་བསམ་ན་དེ་འདྲ་རེད།"]],
+ dialogue:[["A","Shall we go to the park?","ང་ཚོ་གླིང་ག་ལ་འགྲོ་ན་ཡག་གམ།"],["B","Maybe later. I am cooking.","ཕལ་ཆེར་རྗེས་སུ། ང་ཁ་ལག་བཟོ་གི་ཡོད།"],["A","No problem. I will wait.","དཀའ་ངལ་མེད། ང་སྒུག་གི་ཡིན།"],["B","Great! Let's go at four.","ཧ་ཅང་ཡག་པོ། ཆུ་ཚོད་བཞི་པར་འགྲོ།"]]},
+{id:"emerg",stage:3,pic:"🚨",bo:"ཉེན་ཁ།",en:"Emergencies",items:[
+ ["👮","police","སྐོར་སྲུང་བ།"],
+ ["🚒","fire","མེ།"],
+ ["⚠️🔥","danger","ཉེན་ཁ།"],
+ ["🛡️","safe","བདེ་འཇགས།"],
+ ["🏠✉️","address","ཁ་བྱང་།"],
+ ["😵‍💫","lost (way)","ལམ་ནོར།"],
+ ["💥","accident","གློ་བུར་ཉེན་ཁ།"],
+ ["🩸","blood","ཁྲག"],
+ ["🦴","broken","ཆག་པ།"],
+ ["😵","dizzy","མགོ་འཁོར།"],
+ ["🏃💨","quickly","མགྱོགས་པོ་བྱས།"],
+ ["☎️","emergency number (112)","ཛ་དྲག་ཁ་པར་ཨང་། ༡༡༢"]],
+ phrases:[["Help! Call one-one-two!","རོགས་རམ། ༡༡༢ ལ་ཁ་པར་གཏོང་།"],["I am lost.","ང་ལམ་ནོར་སོང་།"],["This is my address.","འདི་ངའི་ཁ་བྱང་རེད།"]],
+ dialogue:[["A","Excuse me, I am lost.","དགོངས་དག་ཞུ། ང་ལམ་ནོར་སོང་།"],["B","Where do you want to go?","ཁྱེད་རང་ག་པར་འགྲོ་འདོད་ཡོད།"],["A","This address, please.","ཁ་བྱང་འདི་ལ་འགྲོ་དགོས།"],["B","It is near. I will show you.","ཉེ་པོ་རེད། ངས་སྟོན་གྱི་ཡིན།"]]},
+{id:"home2",stage:3,pic:"🛋️",bo:"ཁྱིམ་གྱི་ཅ་ལག",en:"Things in the house",items:[
+ ["🧊🚪","fridge","གྲང་སྒམ།"],
+ ["♨️","stove","ཐབ།"],
+ ["🛌🧶","blanket","ཉལ་ཆས།"],
+ ["☁️🛏️","pillow","སྔས་མགོ།"],
+ ["🧻","towel","ལག་ཕྱིས།"],
+ ["🧴","soap","ཡི་ཙི།"],
+ ["🪞","mirror","མེ་ལོང་།"],
+ ["🕰️🏠","clock","ཆུ་ཚོད་འཁོར་ལོ།"],
+ ["🟫","floor","ས་གཞི།"],
+ ["🧱","wall","རྩིག་པ།"],
+ ["🪜","stairs","སྐས་ཀ"],
+ ["🗑️","rubbish","གད་སྙིགས།"]],
+ phrases:[["The towel is in the bathroom.","ལག་ཕྱིས་ཁྲུས་ཁང་ནང་ལ་ཡོད།"],["Please put it in the fridge.","གྲང་སྒམ་ནང་ལ་འཇོག་རོགས།"],["Where is the rubbish bin?","གད་སྙིགས་སྒམ་ག་པར་ཡོད་རེད།"]],
+ dialogue:[["A","Are you cold at night?","མཚན་མོ་གྲང་མོ་འདུག་གམ།"],["B","A little. Do you have a blanket?","ཉུང་ཉུང་། ཉལ་ཆས་ཡོད་དམ།"],["A","Yes. Here is a blanket and a pillow.","ཡོད། འདི་ཉལ་ཆས་དང་སྔས་མགོ་རེད།"],["B","Thank you. Good night!","ཐུགས་རྗེ་ཆེ། གཟིམ་ལེགས།"]]},
+{id:"culture",stage:3,pic:"🪔",bo:"རིག་གཞུང་།",en:"Culture and celebrations",items:[
+ ["🎊","New Year","ལོ་གསར།"],
+ ["🏮","Losar","བོད་ཀྱི་ལོ་གསར།"],
+ ["🪔","butter lamp","མཆོད་མེ།"],
+ ["🎏","prayer flag","དར་ལྕོག"],
+ ["🏯🙏","monastery","དགོན་པ།"],
+ ["🔄🛕","kora","སྐོར་བ།"],
+ ["🎆🥁","festival","དུས་ཆེན།"],
+ ["🧣","khata","ཁ་བཏགས།"],
+ ["🧘‍♂️","monk","གྲྭ་པ།"],
+ ["🪷","Buddha","སངས་རྒྱས།"],
+ ["🍀","good luck","བཀྲ་ཤིས་བདེ་ལེགས་ཡོང་བར་ཤོག"],
+ ["🎶🏔️","tradition","སྲོལ་རྒྱུན།"]],
+ phrases:[["Happy New Year!","ལོ་གསར་ལ་བཀྲ་ཤིས་བདེ་ལེགས།"],["We go to the monastery.","ང་ཚོ་དགོན་པར་འགྲོ་གི་ཡོད།"],["This is a khata for you.","འདི་ཁྱེད་རང་ལ་ཁ་བཏགས་ཡིན།"]],
+ dialogue:[["A","What is Losar?","ལོ་གསར་ཟེར་བ་ག་རེ་རེད།"],["B","It is Tibetan New Year.","བོད་ཀྱི་ལོ་གསར་རེད།"],["A","What do you do at Losar?","ལོ་གསར་ལ་ག་རེ་བྱེད་ཀྱི་ཡོད།"],["B","We visit family and go to the monastery.","ང་ཚོས་ནང་མི་ལ་ལྟ་སྐོར་དང་དགོན་པར་འགྲོ་གི་ཡོད།"],["A","Happy Losar!","ལོ་གསར་ལ་བཀྲ་ཤིས་བདེ་ལེགས།"]]}
+];
+
+
+/* ---------- interface text (all recordable in Tibetan) ---------- */
+const UI={
+ who:"ཁྱེད་རང་སུ་ཡིན།", hello:"བཀྲ་ཤིས་བདེ་ལེགས།",
+ start:"དེ་རིང་གི་སློབ་ཚན་འགོ་འཛུགས།", more:"མུ་མཐུད་དུ་སྦྱོང་།", doneToday:"དེ་རིང་གི་སློབ་ཚན་ཚར་སོང་། ཡག་པོ་བྱུང་།",
+ streak:"ཉིན་རྒྱུན་མཐུད།", known:"ཤེས་ཟིན་པའི་མིང་ཚིག", minutes:"སྐར་མ།",
+ progress:"ཡར་རྒྱས།", words:"མིང་ཚིག་ཡོངས།", settings:"སྒྲིག་འགོད།",
+ listenWhich:"ཉོན། འདི་གང་རེད།", readWhich:"ཀློག འདི་གང་རེད།", howSay:"ཨིན་ཇིའི་སྐད་དུ་ག་རེ་ཟེར།",
+ sayThree:"སྐད་གསལ་པོས་ཐེངས་གསུམ་བཤད།", correct:"ཡག་པོ་བྱུང་།", answerIs:"ལན་ཡང་དག་པ་འདི་རེད།",
+ cont:"མུ་མཐུད།", begin:"འགོ་འཛུགས།", check:"ཞིབ་བཤེར།", home:"ཕྱིར་ལོག",
+ repeat:"ཉོན་ནས་རྗེས་སུ་བཤད།", order:"ཚིག་རིམ་པ་བཞིན་སྒྲིག", newLetter:"ཡི་གེ་གསར་པ།", whichLetter:"ཉོན། ཡི་གེ་གང་རེད།",
+ lessonDone:"དེ་རིང་གི་སློབ་ཚན་ཚར་སོང་།", practiceDone:"སྦྱོང་བརྡར་ཚར་སོང་།",
+ dlgListen:"གླེང་མོལ་འདིར་ཉོན།", dlgQ:"ཚིག་འདིའི་དོན་ག་རེ་རེད།",
+ s_review:"བསྐྱར་ཟློས།", d_review:"སྔོན་ལ་སྦྱངས་པའི་མིང་ཚིག་བསྐྱར་དུ་དྲན་པར་བྱེད།",
+ s_new:"མིང་ཚིག་གསར་པ།", d_new:"ཉོན། བལྟོས། སྐད་གསལ་པོས་བཤད།",
+ s_pattern:"ཚིག་གྲུབ་བཟོ་སྟངས།", d_pattern:"ཨིན་ཇིའི་ཚིག་གྲུབ་ག་འདྲ་བཟོ་དགོས་མིན་སློབ།",
+ s_phrase:"ཚིག་གྲུབ།", d_phrase:"ཚིག་གྲུབ་ཞིག་ལ་ཉན་ནས་བཟོ།",
+ s_dialogue:"གླེང་མོལ།", d_dialogue:"གླེང་མོལ་ཐོག་མཐའ་བར་གསུམ་དུ་ཉོན།",
+ s_abc:"ཨིན་ཇིའི་ཡི་གེ", d_abc:"དེ་རིང་ཡི་གེ་གཉིས་སློབ།",
+ s_reading:"ཀློག་སྦྱོང་།", d_reading:"ཨིན་ཇིའི་མིང་ཚིག་ཁེར་རྐྱང་ཀློག་ཐུབ་མིན་ཚོད་ལྟ།",
+ s_practice:"སྦྱོང་བརྡར།", d_practice:"སྦྱངས་ཟིན་པའི་མིང་ཚིག་ལ་སྦྱོང་བརྡར་བྱེད།",
+ st1:"རིམ་པ་དང་པོ། འཚོ་བའི་གཞི་རྩ།", st2:"རིམ་པ་གཉིས་པ། ཚིག་གྲུབ་བཟོ་སྟངས།", st3:"རིམ་པ་གསུམ་པ། གླེང་མོལ།"
+};
+const SECT={
+ review:{ic:"🔁",en:"Review",den:"Bring back the words you learned before."},
+ new:{ic:"🌱",en:"New words",den:"Listen, look, and say each word out loud."},
+ pattern:{ic:"🧱",en:"How to build a sentence",den:"One sentence pattern, explained in Tibetan."},
+ phrase:{ic:"💬",en:"Today's sentence",den:"Listen to a whole sentence, then build it."},
+ dialogue:{ic:"🗣️",en:"Conversation",den:"Listen to a short conversation from start to end."},
+ abc:{ic:"🔤",en:"ABC",den:"Two new letters today."},
+ reading:{ic:"👓",en:"Reading",den:"Can you read these words without sound?"},
+ practice:{ic:"🎯",en:"Extra practice",den:"More practice with words you have met."}
+};
+const LETTERS=[["A","ay","apple","🍎"],["B","bee","book","📕"],["C","see","cat","🐈"],["D","dee","dog","🐕"],["E","ee","egg","🥚"],["F","ef","father","👨‍🦳"],["G","jee","green","🟢"],["H","aitch","house","🏠"],["I","eye","ice","🧊"],["J","jay","juice","🧃"],["K","kay","key","🔑"],["L","el","lemon","🍋"],["M","em","mother","👩‍🍼"],["N","en","nine","9~༩"],["O","oh","orange","🍊"],["P","pee","phone","📱"],["Q","cue","queen","👸"],["R","ar","red","🔴"],["S","ess","sun","🌞"],["T","tee","tea","🍵"],["U","you","umbrella","☂️"],["V","vee","violin","🎻"],["W","double you","water","💧"],["X","ex","fox","🦊"],["Y","why","yak","🐂"],["Z","zee","zero","0~༠"]];
+const PROFILES=[{id:"ama",bo:"ཨ་མ་ལགས།",en:"Ama-la (mother)",pic:"👩"},{id:"pala",bo:"པ་ལགས།",en:"Pa-la (father)",pic:"👨"}];
+const INTERVALS=[0,1,2,4,7,14,30,60];
+const NEW_PER_DAY=6, GOAL_SEC=1800;
+
+/* ---------- derived data ---------- */
+const ITEMS=[];UNITS.forEach((u,ui)=>u.items.forEach((a,k)=>ITEMS.push({id:u.id+":"+a[1],unit:ui,k,pic:a[0],en:a[1],bo:a[2],hint:a[3]||""})));
+const BYID=Object.fromEntries(ITEMS.map(i=>[i.id,i]));
+const PHRASES=[];UNITS.forEach((u,ui)=>u.phrases.forEach(p=>PHRASES.push({unit:ui,en:p[0],bo:p[1]})));
+
+/* ---------- helpers ---------- */
+const LS={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+function dkey(d=new Date()){const z=n=>String(n).padStart(2,"0");return d.getFullYear()+"-"+z(d.getMonth()+1)+"-"+z(d.getDate())}
+function addDays(k,n){const[y,m,d]=k.split("-").map(Number);return dkey(new Date(y,m-1,d+n))}
+function picHTML(p,cls=""){if(p.includes("~")){const[a,b]=p.split("~");return `<span class="pic num ${cls}">${esc(a)}<small>${esc(b)}</small></span>`}return `<span class="pic ${cls}">${p}</span>`}
+const sayable=t=>String(t).replace(/…/g,"").replace(/\(([^)]*)\)/g,"").replace(/\s\/\s/g,", ").replace(/\s+/g," ").trim();
+const IC={
+ spk:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>',
+ x:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+ back:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>',
+ chart:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>',
+ book:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/></svg>',
+ gear:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>'
+};
+
+/* ---------- state ---------- */
+let P=LS.get("tde.profile"),S=null,screen="home",L=null,resetAsk=false,openUnit=null;
+function defaults(){return{cards:{},newIdx:0,phraseIdx:0,letters:0,dlg:[],days:{},settings:{rate:0.8,hints:true,voice:"",boAuto:true}}}
+function loadProfile(pid){const s=LS.get("tde.v2."+pid)||defaults();const d=defaults();s.settings=Object.assign(d.settings,s.settings||{});for(const k of ["cards","days"])s[k]=s[k]||{};s.dlg=s.dlg||[];return s}
+function save(){if(P&&S)LS.set("tde.v2."+P,S)}
+function today(){const k=dkey();if(!S.days[k])S.days[k]={};const d=S.days[k];d.sec=d.sec||0;d.nw=d.nw||0;d.ph=d.ph||0;d.lt=d.lt||0;return d}
+if(P&&!PROFILES.find(p=>p.id===P))P=null;
+if(P)S=loadProfile(P);
+
+/* ---------- Tibetan voice: recordings matched by exact Tibetan text ---------- */
+const VOICE=new Map(),BLOBS=new Map();let idb=null;
+function setClip(t,blob){const o=VOICE.get(t);if(o)URL.revokeObjectURL(o);VOICE.set(t,URL.createObjectURL(blob));BLOBS.set(t,blob)}
+function dataURLtoBlob(u){const[h,b]=u.split(",");const mt=(h.match(/data:([^;]+)/)||[])[1]||"audio/webm";const bin=atob(b);const arr=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)arr[i]=bin.charCodeAt(i);return new Blob([arr],{type:mt})}
+const blobToDataURL=b=>new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.onerror=()=>r(null);fr.readAsDataURL(b)});
+function idbOpen(){return new Promise(res=>{try{const r=indexedDB.open("tde-voice",1);r.onupgradeneeded=()=>r.result.createObjectStore("clips");r.onsuccess=()=>{idb=r.result;res()};r.onerror=()=>res()}catch(e){res()}})}
+function idbAll(){return new Promise(res=>{if(!idb)return res([]);try{const out=[];const rq=idb.transaction("clips").objectStore("clips").openCursor();rq.onsuccess=()=>{const c=rq.result;if(c){out.push([c.key,c.value]);c.continue()}else res(out)};rq.onerror=()=>res(out)}catch(e){res([])}})}
+function idbPut(k,v){return new Promise(res=>{if(!idb)return res(false);try{const tx=idb.transaction("clips","readwrite");tx.objectStore("clips").put(v,k);tx.oncomplete=()=>res(true);tx.onerror=()=>res(false)}catch(e){res(false)}})}
+async function initVoice(){
+ try{const el=document.getElementById("voicepack");const pack=JSON.parse(el&&el.textContent||"{}");for(const[k,v] of Object.entries(pack.clips||{}))setClip(k,dataURLtoBlob(v))}catch(e){}
+ await idbOpen();for(const[k,b] of await idbAll())if(b instanceof Blob)setClip(k,b);
+ render();
+}
+const hasV=t=>VOICE.has(t);
+
+/* Tibetan text, split into syllables for read-along, with a speaker button when recorded */
+const KEYS=[],KIDX=new Map();function kid(t){if(!KIDX.has(t)){KIDX.set(t,KEYS.length);KEYS.push(t)}return KIDX.get(t)}
+function sylls(t){const out=[];let c="";for(const ch of t){c+=ch;if(ch==="་"||ch==="།"||ch===" "){out.push(c);c=""}}if(c)out.push(c);return out}
+function bo(t,cls="",btn=true){const i=kid(t);return `<span class="bo ${cls}" data-k="${i}">${sylls(t).map(s=>`<span class="sy">${esc(s)}</span>`).join("")}${btn&&hasV(t)?`<button class="vbtn" data-a="pbo" data-k="${i}" aria-label="Hear it in Tibetan">${IC.spk}</button>`:""}</span>`}
+const boTxt=(t,cls="")=>`<span class="bo ${cls}">${esc(t)}</span>`;
+
+/* ---------- audio ---------- */
+const HAS_TTS="speechSynthesis" in window;let voices=[],curAudio=null,seqTok=0,hlRaf=0;
+const IS_IOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+const AUD=new Audio();AUD.preload="auto";const UTTS=[];let unlocked=false;
+const SILENT="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
+function unlockAudio(){if(unlocked)return;unlocked=true;
+ try{if(HAS_TTS){const u=new SpeechSynthesisUtterance(" ");u.volume=0;UTTS.push(u);speechSynthesis.speak(u)}}catch(e){}
+ try{AUD.src=SILENT;const p=AUD.play();if(p&&p.catch)p.catch(()=>{})}catch(e){}}
+["touchend","click","keydown"].forEach(ev=>document.addEventListener(ev,unlockAudio,{capture:true}));
+function loadVoices(){if(!HAS_TTS)return;try{voices=speechSynthesis.getVoices().filter(v=>/^en([-_]|$)/i.test(v.lang))}catch(e){voices=[]}}
+if(HAS_TTS){loadVoices();try{speechSynthesis.onvoiceschanged=()=>{loadVoices();if(screen==="settings")render()}}catch(e){}}
+function pickVoice(){const s=S&&S.settings.voice;return voices.find(v=>v.voiceURI===s)||voices.find(v=>/en[-_]US/i.test(v.lang)&&v.localService)||voices.find(v=>/en[-_](US|GB)/i.test(v.lang))||voices[0]}
+function speakP(text,slow){return new Promise(res=>{if(!HAS_TTS)return res();try{const t=sayable(text);const u=new SpeechSynthesisUtterance(t);UTTS.push(u);if(UTTS.length>30)UTTS.shift();const v=pickVoice();if(v){u.voice=v;u.lang=v.lang}else u.lang="en-US";u.rate=slow?0.55:(S?S.settings.rate:0.8);let done=false;const fin=()=>{if(!done){done=true;res()}};u.onend=fin;u.onerror=fin;setTimeout(fin,1500+t.length*(slow?160:110));try{speechSynthesis.resume()}catch(e){}speechSynthesis.speak(u)}catch(e){res()}})}
+function clearHL(){cancelAnimationFrame(hlRaf);document.querySelectorAll(".sy.on").forEach(e=>e.classList.remove("on"))}
+let justCancelled=false;
+function stopAll(){seqTok++;try{if(HAS_TTS&&(speechSynthesis.speaking||speechSynthesis.pending)){speechSynthesis.cancel();justCancelled=true}}catch(e){}if(curAudio){try{curAudio.pause()}catch(e){}curAudio=null}clearHL()}
+function playBoRaw(t){return new Promise(res=>{const u=VOICE.get(t);if(!u)return res();const a=AUD;a.onplaying=a.onended=a.onerror=null;a.src=u;curAudio=a;const n=sylls(t).length,i=kid(t),t0=performance.now();
+ const tick=()=>{const groups=[...document.querySelectorAll(`.bo[data-k="${i}"]`)].map(e=>[...e.querySelectorAll(".sy")]);const d=isFinite(a.duration)&&a.duration>0?a.duration:Math.max(0.8,n*0.32);const cur=a.currentTime||((performance.now()-t0)/1000);const idx=Math.floor(Math.min(.999,cur/d)*n);groups.forEach(g=>g.forEach((s,j)=>s.classList.toggle("on",j<=idx)));if(!a.paused&&!a.ended)hlRaf=requestAnimationFrame(tick)};
+ const fin=()=>{setTimeout(clearHL,250);res()};a.onplaying=()=>{hlRaf=requestAnimationFrame(tick)};a.onended=fin;a.onerror=fin;const p=a.play();if(p&&p.catch)p.catch(fin)})}
+async function playSeq(list){stopAll();const my=seqTok;if(justCancelled){justCancelled=false;await sleep(IS_IOS?120:40)}for(const s of list){if(!s)continue;if(my!==seqTok)return;if(s.en)await speakP(s.en,s.slow);else if(s.bo)await playBoRaw(s.bo);else if(s.gap)await sleep(s.gap)}}
+const boStep=t=>hasV(t)?{bo:t}:null;
+function promptOnce(key){if(!S.settings.boAuto||!L||L.heard[key])return null;L.heard[key]=1;return boStep(UI[key])}
+
+/* ---------- active-time timer ---------- */
+let lastAct=Date.now();
+["pointerdown","keydown","touchstart"].forEach(e=>document.addEventListener(e,()=>{lastAct=Date.now()},true));
+setInterval(()=>{if(!S||screen!=="lesson"||document.hidden)return;if(Date.now()-lastAct>120000)return;const d=today();d.sec++;if(d.sec%5===0)save();const t=document.getElementById("timer");if(t)t.textContent=fmtTimer()},1000);
+function fmtTimer(){const s=today().sec;return Math.floor(s/60)+":"+String(s%60).padStart(2,"0")}
+
+/* ---------- learning logic ---------- */
+function dueCards(){const t=dkey();return Object.keys(S.cards).filter(id=>BYID[id]&&S.cards[id].due<=t).sort((a,b)=>S.cards[a].due<S.cards[b].due?-1:1)}
+const countKnown=()=>Object.keys(S.cards).filter(id=>BYID[id]&&S.cards[id].box>=3).length;
+const countSeen=()=>Object.keys(S.cards).filter(id=>BYID[id]).length;
+const curUnitIdx=()=>ITEMS[Math.min(S.newIdx,ITEMS.length-1)].unit;
+const lastUnitIdx=()=>S.newIdx?ITEMS[S.newIdx-1].unit:0;
+function dayOk(k){const d=S.days[k];return !!(d&&(d.done||d.sec>=300))}
+function calcStreak(){let k=dkey();if(!dayOk(k))k=addDays(k,-1);let n=0;while(dayOk(k)){n++;k=addDays(k,-1)}return n}
+function newToday(){const cap=dueCards().length>60?3:NEW_PER_DAY;return Math.max(0,Math.min(cap-today().nw,ITEMS.length-S.newIdx))}
+function modeFor(id,practice){const b=S.cards[id].box;const o=b>=3?["read","sound","listen"]:["listen","sound"];return o[Math.floor(Math.random()*(practice?o.length:Math.min(2,o.length)))]}
+const unitDone=ui=>UNITS[ui].items.every((a,k)=>S.cards[UNITS[ui].id+":"+a[1]]);
+
+function buildDaily(){
+ const steps=[],d=today();
+ const due=dueCards().slice(0,45);
+ if(due.length){steps.push({t:"section",k:"review",n:due.length});shuffle(due).forEach(id=>steps.push({t:"quiz",id,mode:modeFor(id),review:true}))}
+ const n=newToday();const newIds=ITEMS.slice(S.newIdx,S.newIdx+n).map(i=>i.id);
+ if(newIds.length){
+  const firsts=[...new Set(newIds.map(id=>BYID[id]).filter(it=>it.k===0&&UNITS[it.unit].pattern).map(it=>it.unit))];
+  firsts.forEach(ui=>{steps.push({t:"section",k:"pattern"});steps.push({t:"pattern",ui})});
+  steps.push({t:"section",k:"new",n:newIds.length});
+  newIds.forEach(id=>steps.push({t:"teach",id}));
+  shuffle(newIds).forEach(id=>steps.push({t:"quiz",id,mode:"listen",fresh:true}));
+  shuffle(newIds).forEach(id=>steps.push({t:"quiz",id,mode:"sound",fresh:true}));
+ }
+ const lastU=ITEMS[Math.min(S.newIdx+n,ITEMS.length)-1].unit;
+ const perDay=UNITS[lastU].stage>=2?2:1;const want=Math.max(0,perDay-d.ph);
+ const ph=[];let idx=S.phraseIdx;
+ for(let j=0;j<want;j++){if(PHRASES[idx]&&PHRASES[idx].unit<=lastU){ph.push({p:PHRASES[idx],isNew:true});idx++}else if(S.phraseIdx>0){ph.push({p:PHRASES[Math.floor(Math.random()*S.phraseIdx)],isNew:false})}}
+ if(ph.length){steps.push({t:"section",k:"phrase"});ph.forEach(x=>steps.push({t:"phrase",p:x.p,isNew:x.isNew}))}
+ if(!d.dl){const ui=UNITS.findIndex((u,i)=>u.dialogue&&!S.dlg.includes(i)&&unitDone(i));if(ui>=0){steps.push({t:"section",k:"dialogue"});steps.push({t:"dialogue",ui})}}
+ if(S.letters<26&&d.lt<2){const ls=[S.letters,S.letters+1].slice(0,2-d.lt).filter(i=>i<26);if(ls.length){steps.push({t:"section",k:"abc"});ls.forEach(i=>steps.push({t:"letter",i}));ls.forEach(i=>steps.push({t:"lquiz",i}))}}
+ else if(S.letters>=26&&!d.rd){const pool=Object.keys(S.cards).filter(id=>BYID[id]&&S.cards[id].box>=2);if(pool.length>=4){steps.push({t:"section",k:"reading"});shuffle(pool).slice(0,4).forEach(id=>steps.push({t:"quiz",id,mode:"read",practice:true,reading:true}))}}
+ steps.push({t:"done"});
+ return steps;
+}
+function buildPractice(){
+ const seen=Object.keys(S.cards).filter(id=>BYID[id]);if(!seen.length)return null;
+ const sorted=shuffle(seen).sort((a,b)=>S.cards[a].box-S.cards[b].box);
+ const pick=shuffle(sorted.slice(0,Math.min(30,sorted.length))).slice(0,15);
+ const steps=[{t:"section",k:"practice",n:pick.length}];
+ pick.forEach(id=>steps.push({t:"quiz",id,mode:modeFor(id,true),practice:true}));
+ if(S.phraseIdx>0)steps.push({t:"phrase",p:PHRASES[Math.floor(Math.random()*S.phraseIdx)],isNew:false});
+ if(S.letters>=3)steps.push({t:"lquiz",i:Math.floor(Math.random()*S.letters)});
+ steps.push({t:"done"});
+ return steps;
+}
+function distractors(id,n){const it=BYID[id];const pool=ITEMS.filter(x=>x.id!==id&&x.pic!==it.pic&&x.bo!==it.bo);let c=shuffle(pool.filter(x=>x.unit===it.unit));if(c.length<n)c=c.concat(shuffle(pool.filter(x=>x.unit!==it.unit&&Math.abs(x.unit-it.unit)<6)));if(c.length<n)c=c.concat(shuffle(pool));return c.slice(0,n)}
+function grade(st,ok){
+ const c=S.cards[st.id];if(!c)return;
+ ok?(c.r=(c.r||0)+1):(c.w=(c.w||0)+1);ok?L.stats.r++:L.stats.w++;
+ if(st.review&&!st.requeue){if(ok){c.box=Math.min(c.box+1,INTERVALS.length-1);c.due=addDays(dkey(),INTERVALS[c.box])}else{c.box=1;c.due=addDays(dkey(),1)}}
+ if(st.practice&&!ok){c.box=1;c.due=addDays(dkey(),1)}
+ if(!ok&&!st.requeue){L.steps.splice(Math.min(L.i+4,L.steps.length-1),0,{t:"quiz",id:st.id,mode:"listen",requeue:true})}
+ save();
+}
+
+/* ---------- views ---------- */
+const app=document.getElementById("app");
+function go(s){stopAll();screen=s;resetAsk=false;render();window.scrollTo(0,0)}
+function render(){
+ if(!P){app.innerHTML=viewProfile();return}
+ if(screen==="lesson"){app.innerHTML=viewLesson();afterLesson();return}
+ app.innerHTML=screen==="progress"?viewProgress():screen==="words"?viewWords():screen==="settings"?viewSettings():screen==="studio"?viewStudio():viewHome();
+}
+const flags='<div class="flags" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>';
+function viewProfile(){
+ return `${flags}<div class="profiles"><h1>${bo(UI.who)}</h1><p class="en-sub">Who is learning? Each person keeps their own progress.</p>
+ ${PROFILES.map(p=>`<button class="pbtn" data-a="profile" data-id="${p.id}"><span class="pic">${p.pic}</span><span><span class="bo">${esc(p.bo)}</span><span class="en-sub">${p.en}</span></span></button>`).join("")}</div>`;
+}
+function viewHome(){
+ const d=today(),min=Math.floor(d.sec/60),C=2*Math.PI*52,off=C*(1-Math.min(1,d.sec/GOAL_SEC));
+ const prof=PROFILES.find(p=>p.id===P),cui=curUnitIdx(),cu=UNITS[cui];
+ const uItems=ITEMS.filter(i=>i.unit===cui),uSeen=uItems.filter(i=>S.cards[i.id]).length;
+ const due=dueCards().length,nNew=newToday(),done=d.done,seen=countSeen();
+ const cta=done
+  ?`<button class="cta" data-a="startPractice">${boTxt(UI.more)}<span class="en-sub">Today's lesson is done. Practise more</span></button>`
+  :`<button class="cta" data-a="startDaily">${boTxt(UI.start)}<span class="en-sub">Start today's lesson</span></button>`;
+ const plan=done?`<p class="plan">${bo(UI.doneToday)}<br>Extra practice fills the rest of the 30 minutes.</p>`
+  :`<p class="plan">${due} to review · ${nNew} new words · sentences · ${S.letters<26?"ABC":"reading"}</p>`;
+ let notice="";
+ if(!HAS_TTS)notice=`<div class="notice">This browser cannot speak English aloud. Open the app in Chrome or Safari.</div>`;
+ else if(IS_IOS&&!LS.get("tde.iosTipOk"))notice=`<div class="notice"><b>No sound?</b> On iPhone, turn off silent mode (the switch on the side of the phone) and turn the volume up. <div class="row" style="margin-top:8px"><button class="btn ghost" data-a="play" data-t="Hello! Can you hear me?">Test sound</button><button class="btn ghost" data-a="iosOk">I can hear it</button></div></div>`;
+ else if(!VOICE.size)notice=`<div class="notice">No Tibetan voice recorded yet. A family member can record it under Settings → Tibetan voice.</div>`;
+ return `${flags}
+ <header class="hello"><div style="min-width:0"><p class="hello-bo">${bo(UI.hello)} ${boTxt(prof.bo)}</p><p class="en-sub">Tashi delek, ${prof.en.split(" ")[0]}</p></div><button class="who" data-a="switch" aria-label="Switch learner">${prof.pic}</button></header>
+ <section class="today">
+  <div class="ring" role="img" aria-label="${min} of 30 minutes today"><svg viewBox="0 0 120 120"><circle class="track" cx="60" cy="60" r="52"/><circle class="val" cx="60" cy="60" r="52" stroke-dasharray="${C}" stroke-dashoffset="${off}"/></svg>
+   <div class="mid"><span class="num">${min}</span><span class="of">/ 30 ${esc(UI.minutes)}</span></div></div>
+  <div class="stats">
+   <div class="stat"><b>${calcStreak()}</b><span class="lbl">${bo(UI.streak)}<span class="en-sub">days in a row</span></span></div>
+   <div class="stat"><b>${countKnown()}</b><span class="lbl">${bo(UI.known)}<span class="en-sub">words known</span></span></div>
+  </div>
+ </section>
+ ${cta}${plan}${notice}
+ <div class="unitnow"><span class="pic">${cu.pic}</span><div style="flex:1;min-width:0">${boTxt(cu.bo)} <span class="en-sub">${esc(cu.en)} · ${uSeen}/${uItems.length}</span><div class="bar"><span style="width:${uSeen/uItems.length*100}%"></span></div></div></div>
+ <div class="stagerow"><span>${boTxt(UI["st"+cu.stage])}</span><span>${seen} / ${ITEMS.length} words</span></div>
+ <nav class="menu">
+  <button data-a="nav" data-s="progress">${IC.chart}${boTxt(UI.progress)}<span class="en-sub">Progress</span></button>
+  <button data-a="nav" data-s="words">${IC.book}${boTxt(UI.words)}<span class="en-sub">All words</span></button>
+  <button data-a="nav" data-s="settings">${IC.gear}${boTxt(UI.settings)}<span class="en-sub">Settings</span></button>
+ </nav>`;
+}
+function subtop(t,en){return `<div class="subtop"><button class="icon-btn" data-a="nav" data-s="home" aria-label="Back">${IC.back}</button><h1>${boTxt(t)}<span class="en-sub">${en}</span></h1></div>`}
+
+/* ---------- lesson ---------- */
+const cur=()=>L.steps[L.i];
+const btnListen=(t,big)=>`<button class="play ${big?"big":""}" data-a="play" data-t="${esc(t)}" aria-label="Listen">${IC.spk}<span class="bo" style="font-size:1rem">ཉོན།</span></button>`;
+const btnSlow=t=>`<button class="slow" data-a="play" data-t="${esc(t)}" data-slow="1" aria-label="Slow"><span aria-hidden="true">🐢</span><span class="bo" style="font-size:1rem">དལ་མོ།</span></button>`;
+const btnBo=t=>hasV(t)?`<button class="play bo-play" data-a="pbo" data-k="${kid(t)}" aria-label="Hear it in Tibetan">${IC.spk}<span class="bo" style="font-size:1rem">བོད་སྐད།</span></button>`:"";
+function sayDots(){return `<div class="say">${bo(UI.sayThree)}<p class="en-sub">Say it out loud 3 times. Tap a circle each time.</p><div class="dots">${[0,1,2].map(i=>`<button class="dot ${L.say>i?"on":""}" data-a="say" aria-label="Said it ${i+1}"></button>`).join("")}</div></div>`}
+const contBtn=()=>`<button class="btn primary" data-a="next">${boTxt(UI.cont)}<span class="en-sub">Continue</span></button>`;
+const prompt=(key,en)=>`<p class="prompt">${bo(UI[key])}</p><p class="en-sub">${en}</p>`;
+function viewLesson(){
+ const st=cur(),total=L.steps.length,pct=Math.round(L.i/Math.max(1,total-1)*100);
+ return `<div class="lesson"><div class="ltop"><button class="icon-btn" data-a="quit" aria-label="Close lesson">${IC.x}</button><div class="bar"><span style="width:${pct}%"></span></div><span class="timer" id="timer">${fmtTimer()}</span></div>
+ <div class="lbody">${stepBody(st)}</div><div class="lfoot">${stepFoot(st)}</div></div>`;
+}
+function stepBody(st){
+ switch(st.t){
+ case "section":{const s=SECT[st.k];return `<div class="section"><div class="ic">${s.ic}</div><h2>${bo(UI["s_"+st.k])}</h2><p class="en-sub">${s.en}</p><p style="margin-top:10px">${bo(UI["d_"+st.k])}</p><p class="en-sub">${s.den}</p>${st.n?`<p class="count">${st.n}</p>`:""}</div>`}
+ case "teach":{const it=BYID[st.id];return `<div class="teach">${picHTML(it.pic,"big")}<div class="word">${esc(it.en)}</div>${S.settings.hints&&it.hint?`<div class="hint">${boTxt(it.hint)}</div>`:""}<div class="meaning">${bo(it.bo)}</div><div class="audio-row">${btnListen(it.en)}${btnSlow(it.en)}</div>${sayDots()}</div>`}
+ case "quiz":return quizBody(st);
+ case "phrase":return phraseBody(st);
+ case "pattern":return patternBody(st);
+ case "dialogue":return dialogueBody(st);
+ case "letter":{const[c,,w,p]=LETTERS[st.i];const hw=esc(w).replace(new RegExp(c,"i"),m=>`<mark>${m}</mark>`);return `${prompt("newLetter","New letter")}<div class="letter">${c}<span>${c.toLowerCase()}</span></div><div class="lex">${picHTML(p)}<span class="word">${hw}</span></div><div class="audio-row">${btnListen(letterSay(st.i))}${btnSlow(letterSay(st.i))}</div>${sayDots()}`}
+ case "lquiz":return lquizBody(st);
+ case "done":return doneBody();
+ }return "";
+}
+function fbBox(ok,inner){return `<div class="fb ${ok?"good":"bad"}"><div class="fb-h">${ok?`${bo(UI.correct)}<span class="en-sub">Correct</span>`:`${bo(UI.answerIs)}<span class="en-sub">The answer is</span>`}</div>${inner}${contBtn()}</div>`}
+function stepFoot(st){
+ if(st.t==="section")return `<button class="btn primary" data-a="next">${boTxt(UI.begin)}<span class="en-sub">Begin</span></button>`;
+ if(st.t==="teach"||st.t==="letter"||st.t==="pattern")return contBtn();
+ if(st.t==="quiz"||st.t==="lquiz"){
+  if(L.ans){if(st.t==="quiz"){const it=BYID[st.id];return fbBox(L.ans.ok,`<div class="fb-ans">${picHTML(it.pic)}<b>${esc(it.en)}</b>${bo(it.bo)}</div>`)}return fbBox(L.ans.ok,`<div class="fb-ans"><b style="font-size:2.4rem">${LETTERS[st.i][0]} ${LETTERS[st.i][0].toLowerCase()}</b></div>`)}
+  if(st.t==="quiz"&&st.mode==="sound")return `<button class="btn primary" data-a="check" ${L.sel?"":"disabled"}>${boTxt(UI.check)}<span class="en-sub">Check</span></button>`;
+  return "";
+ }
+ if(st.t==="phrase"){
+  if(st.phase==="listen")return `<button class="btn primary" data-a="phraseBuild">${boTxt(UI.cont)}<span class="en-sub">Next: build the sentence</span></button>`;
+  if(st.phase==="build")return `<button class="btn primary" data-a="phraseCheck" ${st.pool&&st.pool.length?"disabled":""}>${boTxt(UI.check)}<span class="en-sub">Check</span></button>`;
+  return fbBox(st.ok,`<div class="fb-ans"><b>${esc(st.p.en)}</b></div>`);
+ }
+ if(st.t==="dialogue"){
+  if(st.phase==="listen")return `<button class="btn primary" data-a="dlgQuiz">${boTxt(UI.cont)}<span class="en-sub">Next: a question about it</span></button>`;
+  if(st.ans)return fbBox(st.ans.ok,`<div class="fb-ans"><b>${esc(st.q[1])}</b>${bo(st.q[2])}</div>`);
+  return "";
+ }
+ if(st.t==="done")return `${countSeen()?`<button class="btn primary" data-a="startPractice">${boTxt(UI.more)}<span class="en-sub">Practise more</span></button>`:""}<button class="btn ghost" data-a="nav" data-s="home">${boTxt(UI.home)}<span class="en-sub">Home</span></button>`;
+ return "";
+}
+function tile(o,st){let c="tile";const a=L.ans;if(a){c+=" locked";if(o.id===st.id)c+=" ok";else if(o.id===a.pick)c+=" no"}return `<div class="${c}" role="button" tabindex="0" ${a?"":`data-a="pick" data-id="${o.id}"`}>${picHTML(o.pic)}${bo(o.bo,"tmean")}</div>`}
+function quizBody(st){
+ const it=BYID[st.id];
+ if(!st.opts)st.opts=shuffle([it,...distractors(st.id,st.mode==="sound"?2:3)]);
+ if(st.mode==="listen")return `${prompt("listenWhich","Listen. Which one is it?")}<div class="audio-row">${btnListen(it.en,true)}${btnSlow(it.en)}</div><div class="tiles">${st.opts.map(o=>tile(o,st)).join("")}</div>`;
+ if(st.mode==="read")return `${prompt("readWhich","Read. Which one is it?")}<div class="readword">${esc(it.en)}</div><div class="tiles">${st.opts.map(o=>tile(o,st)).join("")}</div>`;
+ return `${prompt("howSay","How do you say this in English? Tap to hear each one.")}<div class="ask">${picHTML(it.pic,"big")}<div class="meaning">${bo(it.bo)}</div></div>
+ <div class="sopts">${st.opts.map(o=>{let c="sopt";if(L.ans){if(o.id===st.id)c+=" ok";else if(o.id===L.ans.pick)c+=" no"}else if(L.sel===o.id)c+=" sel";return `<button class="${c}" data-a="sel" data-id="${o.id}" ${L.ans?"disabled":""}><span class="spk">${IC.spk}</span><span class="sw">${esc(o.en)}</span></button>`}).join("")}</div>`;
+}
+function phraseBody(st){
+ const p=st.p;if(!st.phase)st.phase="listen";
+ if(st.phase==="listen")return `${prompt("repeat","Listen and repeat")}<div class="sentence">${esc(p.en)}</div><div class="meaning" style="text-align:center">${bo(p.bo)}</div><div class="audio-row">${btnListen(p.en,true)}${btnSlow(p.en)}</div>${sayDots()}`;
+ if(!st.words){st.words=p.en.split(" ");let o;let tries=0;do{o=shuffle(st.words.map((w,i)=>i));tries++}while(st.words.length>1&&tries<20&&o.every((v,i)=>st.words[v]===st.words[i]));st.pool=o;st.ans=[]}
+ const lock=st.phase==="result";
+ return `${prompt("order","Tap the words in the right order")}<div class="meaning" style="text-align:center">${bo(p.bo)}</div><div class="audio-row">${btnListen(p.en)}${btnSlow(p.en)}</div>
+ <div class="slots">${st.ans.length?st.ans.map((wi,k)=>`<button class="wchip" data-a="unchip" data-k="${k}" ${lock?"disabled":""}>${esc(st.words[wi])}</button>`).join(""):'<span class="slot-ph">…</span>'}</div>
+ <div class="pool">${st.pool.map((wi,k)=>`<button class="wchip" data-a="chip" data-k="${k}">${esc(st.words[wi])}</button>`).join("")}</div>`;
+}
+function exRow(en,b){return `<div class="exrow"><button class="play" data-a="play" data-t="${esc(en)}" aria-label="Listen">${IC.spk}</button><div style="min-width:0"><b>${esc(en)}</b>${bo(b)}</div></div>`}
+function patternBody(st){const u=UNITS[st.ui],pt=u.pattern;
+ return `<div class="pattern"><div class="pen">${esc(pt.en)}</div><div class="pbo">${bo(pt.bo)}</div><div class="audio-row">${btnListen(pt.en)}${btnBo(pt.note)}</div><p class="note">${bo(pt.note)}</p>${pt.ex.map(e=>exRow(e[0],e[1])).join("")}</div>`}
+function dialogueBody(st){
+ const u=UNITS[st.ui],dl=u.dialogue;if(!st.phase)st.phase="listen";
+ if(st.phase==="listen")return `${prompt("dlgListen","Listen to the conversation. Tap any line to hear it again.")}<div class="audio-row"><button class="play big" data-a="dlgAll">${IC.spk}<span class="bo" style="font-size:1rem">ཚང་མ་ཉོན།</span></button></div>
+ <div class="dlines">${dl.map((l,i)=>`<div class="dline ${l[0]==="B"?"b":""}" id="dl${i}"><span class="who2">${l[0]==="A"?"🧑":"👵"}</span><div style="min-width:0"><b>${esc(l[1])}</b>${bo(l[2])}</div><button class="play" data-a="play" data-t="${esc(l[1])}" aria-label="Listen">${IC.spk}</button></div>`).join("")}</div>`;
+ if(!st.q){const qi=Math.floor(Math.random()*dl.length);st.q=dl[qi];st.opts=shuffle([qi,...shuffle(dl.map((l,i)=>i).filter(i=>i!==qi&&dl[i][2]!==dl[qi][2])).slice(0,2)])}
+ return `${prompt("dlgQ","What does this line mean?")}<div class="sentence">${esc(st.q[1])}</div><div class="audio-row">${btnListen(st.q[1],true)}${btnSlow(st.q[1])}</div>
+ <div class="dline-opts">${st.opts.map(i=>{let c="dline-opt";if(st.ans){if(dl[i]===st.q)c+=" ok";else if(i===st.ans.pick)c+=" no"}return `<div class="${c}" role="button" tabindex="0" ${st.ans?"":`data-a="dlgPick" data-i="${i}"`}>${bo(dl[i][2])}</div>`}).join("")}</div>`;
+}
+function lquizBody(st){
+ if(!st.opts){const max=Math.max(S.letters,st.i+1);let pool=shuffle([...Array(max).keys()].filter(i=>i!==st.i)).slice(0,2);if(pool.length<2)pool=pool.concat(shuffle([...Array(26).keys()].filter(i=>i!==st.i&&!pool.includes(i))).slice(0,2-pool.length));st.opts=shuffle([st.i,...pool])}
+ return `${prompt("whichLetter","Listen. Which letter is it?")}<div class="audio-row">${btnListen(LETTERS[st.i][1],true)}</div><div class="lbtns">${st.opts.map(i=>{let c="lbtn";if(L.ans){if(i===st.i)c+=" ok";else if(i===L.ans.pick)c+=" no"}return `<button class="${c}" data-a="lpick" data-i="${i}" ${L.ans?"disabled":""}>${LETTERS[i][0]}</button>`}).join("")}</div>`;
+}
+function doneBody(){
+ const s=L.stats,tot=s.r+s.w,pct=tot?Math.round(s.r/tot*100):100,min=Math.floor(today().sec/60);
+ return `<div class="done"><div class="ic">🎉</div><h2>${bo(UI.correct)}</h2><p class="en-sub">Well done!</p>
+ <p>${bo(L.kind==="daily"?UI.lessonDone:UI.practiceDone)}</p>
+ <div class="sumgrid"><div><b>${min}</b>${boTxt(UI.minutes)}<br><span class="en-sub">minutes today</span></div><div><b>${s.nw}</b>${boTxt("གསར་པ།")}<br><span class="en-sub">new words</span></div><div><b>${pct}%</b>${boTxt("ཏག་ཏག")}<br><span class="en-sub">correct</span></div></div>
+ <p class="en-sub" style="margin-top:8px">${min<30?`${30-min} minutes left to reach today's 30. Extra practice helps the words stay.`:"30 minutes reached today."}</p></div>`;
+}
+const letterSay=i=>{const[,n,w]=LETTERS[i];return `${n}. ${n} is for ${w}.`};
+function afterLesson(){
+ const st=cur();if(L.entered===L.i)return;L.entered=L.i;
+ if(st.t==="section"){playSeq([S.settings.boAuto?boStep(UI["s_"+st.k]):null,S.settings.boAuto?boStep(UI["d_"+st.k]):null])}
+ else if(st.t==="teach"){const it=BYID[st.id];if(!S.cards[st.id]){S.cards[st.id]={box:1,due:addDays(dkey(),1),seen:dkey(),r:0,w:0};S.newIdx=Math.max(S.newIdx,ITEMS.indexOf(it)+1);today().nw++;L.stats.nw++;save()}
+  setTimeout(()=>playSeq([{en:it.en},{gap:350},boStep(it.bo),{gap:350},{en:it.en}]),250)}
+ else if(st.t==="quiz"){const it=BYID[st.id];if(st.mode==="listen")setTimeout(()=>playSeq([promptOnce("listenWhich"),{en:it.en}]),300);else if(st.mode==="sound")setTimeout(()=>playSeq([promptOnce("howSay"),boStep(it.bo)]),300);else setTimeout(()=>playSeq([promptOnce("readWhich")]),300)}
+ else if(st.t==="phrase")setTimeout(()=>playSeq([{en:st.p.en},{gap:350},boStep(st.p.bo),{gap:350},{en:st.p.en}]),300);
+ else if(st.t==="pattern"){const pt=UNITS[st.ui].pattern;setTimeout(()=>playSeq([{en:pt.en},boStep(pt.note)]),300)}
+ else if(st.t==="dialogue")setTimeout(()=>ACT.dlgAll(),400);
+ else if(st.t==="letter"){if(L.kind==="daily"&&st.i>=S.letters){S.letters=st.i+1;today().lt++;save()}setTimeout(()=>playSeq([{en:letterSay(st.i)}]),300)}
+ else if(st.t==="lquiz")setTimeout(()=>playSeq([promptOnce("whichLetter"),{en:LETTERS[st.i][1]}]),300);
+ else if(st.t==="done"){if(L.kind==="daily")today().done=true;save();setTimeout(()=>playSeq([S.settings.boAuto?boStep(UI.correct):null]),300)}
+}
+function startLesson(kind){const steps=kind==="daily"?buildDaily():buildPractice();if(!steps)return;L={kind,steps,i:0,entered:-1,ans:null,sel:null,say:0,heard:{},stats:{r:0,w:0,nw:0}};lastAct=Date.now();go("lesson")}
+
+/* ---------- progress ---------- */
+function viewProgress(){
+ const known=countKnown(),seen=countSeen(),totMin=Math.round(Object.values(S.days).reduce((a,d)=>a+(d.sec||0),0)/60);
+ const t=dkey(),wd=(new Date().getDay()+6)%7,end=addDays(t,6-wd),start=addDays(end,-34);
+ let cells="";for(let i=0;i<35;i++){const k=addDays(start,i),fut=k>t,d=S.days[k],m=d?Math.floor((d.sec||0)/60):0;const lv=fut?"fut":m>=30?"lv4":m>=20?"lv3":m>=10?"lv2":m>=1?"lv1":"";cells+=`<div class="d ${lv} ${k===t?"today":""}" title="${k}: ${m} min">${fut?"":Number(k.slice(8))}</div>`}
+ const wds=["ཟླ།","མིག","ལྷག","ཕུར།","སངས།","སྤེན།","ཉི།"].map(w=>`<div class="wd">${w}</div>`).join("");
+ const stageRows=[1,2,3].map(sg=>{const us=UNITS.map((u,i)=>[u,i]).filter(([u])=>u.stage===sg);const its=ITEMS.filter(i=>UNITS[i.unit].stage===sg),s=its.filter(i=>S.cards[i.id]).length;
+  return `<div class="stagehead">${boTxt(UI["st"+sg])}<span class="en-sub">${s}/${its.length}</span></div>`+us.map(([u,ui])=>{const ii=ITEMS.filter(i=>i.unit===ui),ss=ii.filter(i=>S.cards[i.id]).length,k=ii.filter(i=>S.cards[i.id]&&S.cards[i.id].box>=3).length;return `<div class="urow"><span class="pic">${u.pic}</span><div style="min-width:0">${boTxt(u.bo)} <span class="en-sub">${esc(u.en)}</span><div class="bar" style="margin-top:4px"><span style="width:${ss/ii.length*100}%"></span></div></div><small>${k}/${ii.length}</small></div>`}).join("")}).join("");
+ return `${subtop(UI.progress,"Progress")}
+ <div class="bignums">
+  <div><b>${known}</b>${boTxt("ཤེས་ཟིན།")}<br><span class="en-sub">words known well</span></div>
+  <div><b>${seen-known}</b>${boTxt("སློབ་བཞིན་པ།")}<br><span class="en-sub">words still learning</span></div>
+  <div><b>${calcStreak()}</b>${boTxt(UI.streak)}<br><span class="en-sub">days in a row</span></div>
+  <div><b>${totMin}</b>${boTxt("སྐར་མ་བསྡོམས།")}<br><span class="en-sub">minutes in total</span></div>
+ </div>
+ <div class="panel"><h3>${boTxt("ཉིན་རེའི་སྐར་མ།")}<span class="en-sub">Minutes each day, last 5 weeks</span></h3><div class="cal">${wds}${cells}</div>
+  <div class="legend"><span>0</span><i></i><i style="background:var(--lv1)"></i><i style="background:var(--lv2)"></i><i style="background:var(--lv3)"></i><i style="background:var(--lv4)"></i><span>30+ min</span></div></div>
+ <div class="panel"><h3>${boTxt("སློབ་ཚན།")}<span class="en-sub">Topics · known / total · about 90 days in all</span></h3>${stageRows}</div>
+ <div class="panel"><h3>${boTxt(UI.s_abc)}<span class="en-sub">Letters learned</span></h3><div style="font-size:1.6rem;font-weight:700;letter-spacing:.12em;overflow-wrap:anywhere">${LETTERS.map((l,i)=>`<span style="color:${i<S.letters?"var(--maroon)":"var(--line)"}">${l[0]}</span>`).join(" ")}</div><p class="en-sub" style="margin-top:6px">${S.letters} / 26</p></div>`;
+}
+/* ---------- words ---------- */
+function viewWords(){
+ const oi=openUnit==null?curUnitIdx():openUnit;
+ return `${subtop(UI.words,"All words. Tap an English word to hear it.")}${[1,2,3].map(sg=>`<div class="stagehead">${boTxt(UI["st"+sg])}</div>`+UNITS.map((u,ui)=>{if(u.stage!==sg)return "";const its=ITEMS.filter(i=>i.unit===ui),s=its.filter(i=>S.cards[i.id]).length;
+ const extra=(u.pattern?`<div class="uextra"><b>${esc(u.pattern.en)}</b>${bo(u.pattern.bo)}${bo(u.pattern.note)}</div>`:"")+(u.dialogue?`<div class="uextra"><span class="en-sub">Conversation</span>${u.dialogue.map(l=>exRow(l[1],l[2])).join("")}</div>`:"")+`<div class="uextra"><span class="en-sub">Sentences</span>${u.phrases.map(p=>exRow(p[0],p[1])).join("")}</div>`;
+ return `<details class="unit" ${ui===oi?"open":""}><summary><span class="pic">${u.pic}</span><span class="t">${boTxt(u.bo)}<span class="en-sub">${esc(u.en)}</span></span><small class="en-sub">${s}/${its.length}</small></summary>
+ ${its.map(i=>{const c=S.cards[i.id];const lv=!c?'<span class="lvl n">—</span>':c.box>=3?'<span class="lvl k">ཤེས།</span>':'<span class="lvl l">སློབ་བཞིན།</span>';return `<div class="wrow ${c?"":"locked"}">${picHTML(i.pic)}<span style="min-width:0"><button class="en" data-a="play" data-t="${esc(i.en)}">${esc(i.en)}</button><br>${bo(i.bo)}</span>${lv}</div>`}).join("")}${extra}</details>`}).join("")).join("")}`;
+}
+/* ---------- settings ---------- */
+function viewSettings(){
+ const r=S.settings.rate,prof=PROFILES.find(p=>p.id===P);
+ const vopts=voices.length?voices.map(v=>`<option value="${esc(v.voiceURI)}" ${pickVoice()===v?"selected":""}>${esc(v.name)} (${esc(v.lang)})</option>`).join(""):'<option>No English voice found on this device</option>';
+ const total=recordList().length,done=recordList().filter(x=>hasV(x.t)).length;
+ return `${subtop(UI.settings,"Settings")}
+ <div class="panel"><h3>${boTxt("བོད་སྐད་ཀྱི་སྒྲ།")}<span class="en-sub">Tibetan voice · ${done} of ${total} recorded</span></h3>
+  <div class="bar" style="margin-bottom:12px"><span style="width:${total?done/total*100:0}%"></span></div>
+  <div class="row"><button class="btn primary" data-a="nav" data-s="studio">${boTxt("སྒྲ་འཇུག")} · Record or import</button></div>
+  <h3 style="margin-top:14px">${boTxt("རང་འགུལ་གྱིས་བོད་སྐད་སྒྲོག")}<span class="en-sub">Play Tibetan instructions automatically</span></h3>
+  <div class="seg"><button class="${S.settings.boAuto?"on":""}" data-a="boAuto" data-v="1">On</button><button class="${S.settings.boAuto?"":"on"}" data-a="boAuto" data-v="0">Off</button></div></div>
+ <div class="panel"><h3>${boTxt("སྐད་ཀྱི་མྱུར་ཚད།")}<span class="en-sub">English speaking speed</span></h3><div class="seg"><button class="${r<0.75?"on":""}" data-a="rate" data-v="0.65">${boTxt("དལ་མོ།")} · Slow</button><button class="${r>=0.75?"on":""}" data-a="rate" data-v="0.85">${boTxt("རྒྱུན་ལྡན།")} · Normal</button></div></div>
+ <div class="panel"><h3>${boTxt("སྒྲ་གདངས་རོགས་རམ།")}<span class="en-sub">Pronunciation in Tibetan letters (first 30 days)</span></h3><div class="seg"><button class="${S.settings.hints?"on":""}" data-a="hints" data-v="1">On</button><button class="${S.settings.hints?"":"on"}" data-a="hints" data-v="0">Off</button></div></div>
+ <div class="panel"><h3>${boTxt("ཨིན་ཇིའི་སྒྲ།")}<span class="en-sub">English voice</span></h3><select id="voiceSel" aria-label="English voice">${vopts}</select><div class="row" style="margin-top:10px"><button class="btn ghost" data-a="play" data-t="Hello. Thank you. Good morning.">Test the voice</button></div>
+  <p class="en-sub" style="margin-top:8px">No sound on iPhone? Turn off silent mode (the switch on the side) and turn the volume up.</p>${!HAS_TTS||!voices.length?'<p class="en-sub" style="margin-top:8px">If there is still no sound: on Android install "Speech Services by Google" and add English; on iPhone, Settings → Accessibility → Spoken Content → Voices → English.</p>':""}</div>
+ <div class="panel"><h3>${boTxt("སློབ་མ།")}<span class="en-sub">Learner: ${prof.en}</span></h3><div class="row"><button class="btn ghost" data-a="switch">Switch learner</button></div>
+  ${resetAsk?`<p style="margin:12px 0 8px"><span class="en-sub">Erase all of ${prof.en.split(" ")[0]}'s progress? This cannot be undone.</span></p><div class="row"><button class="btn danger" data-a="resetYes">Erase progress</button><button class="btn ghost" data-a="resetNo">Keep it</button></div>`
+  :`<div class="row" style="margin-top:10px"><button class="btn ghost" data-a="resetAsk">Start over from zero</button></div>`}</div>
+ <div class="panel howto"><h3><span style="font-weight:700">How this course works (for family helping out)</span></h3>
+  <ul>
+   <li><b>About 540 of the most-used English words in 90 days</b>, in three stages: survival basics, building sentences, real conversations.</li>
+   <li><b>Ears before eyes.</b> Every word is heard first and matched to a picture. Reading English words alone only comes once a word is known by ear.</li>
+   <li><b>Tibetan voice.</b> Once a family member records the Tibetan, every meaning and instruction can be heard. The Tibetan text lights up syllable by syllable while it plays, which also trains Tibetan reading.</li>
+   <li><b>Six new words a day</b>, cut to three if reviews pile up. Stage 2 adds one sentence pattern per topic, explained in Tibetan. Stage 3 adds a short conversation per topic.</li>
+   <li><b>Spaced review.</b> A word answered right returns after 1, 2, 4, 7, 14, 30 and 60 days. A missed word returns tomorrow and again a few minutes later.</li>
+   <li><b>No punishment.</b> Mistakes just show the right answer with sound.</li>
+   <li><b>30 minutes.</b> The ring fills with active minutes only. The daily lesson takes 15–25; extra practice fills the rest.</li>
+  </ul>
+  <p class="en-sub">Progress and recordings are saved on this phone only.</p></div>`;
+}
+
+/* ---------- recording studio ---------- */
+let STU={i:null,recording:false,rec:null,stream:null,msg:"",filter:"todo"};
+let _rl=null;
+function recordList(){if(_rl)return _rl;const out=[],seen=new Set();const add=(t,ctx)=>{if(t&&!seen.has(t)){seen.add(t);out.push({t,ctx})}};
+ Object.entries(UI).forEach(([k,v])=>add(v,"App instruction"));PROFILES.forEach(p=>add(p.bo,"Learner name"));
+ UNITS.forEach((u,ui)=>{const tag=`Topic ${ui+1} · ${u.en}`;if(u.pattern){add(u.pattern.bo,`${tag} · pattern: ${u.pattern.en}`);add(u.pattern.note,`${tag} · grammar explanation`);u.pattern.ex.forEach(e=>add(e[1],`${tag} · example: ${e[0]}`))}
+  u.items.forEach(a=>add(a[2],`${tag} · word: ${a[1]}`));u.phrases.forEach(p=>add(p[1],`${tag} · sentence: ${p[0]}`));(u.dialogue||[]).forEach(l=>add(l[2],`${tag} · conversation: ${l[1]}`))});
+ return _rl=out}
+const inFrame=(()=>{try{return window.self!==window.top}catch(e){return true}})();
+const canRecord=()=>!inFrame&&!!(navigator.mediaDevices&&navigator.mediaDevices.getUserMedia&&window.MediaRecorder);
+function stuIndex(){const L2=recordList();if(STU.i==null){const f=L2.findIndex(x=>!hasV(x.t));STU.i=f<0?0:f}return STU.i}
+function viewStudio(){
+ const list=recordList(),i=stuIndex(),x=list[i],done=list.filter(z=>hasV(z.t)).length,has=hasV(x.t);
+ return `${subtop("བོད་སྐད་ཀྱི་སྒྲ་འཇུག","Record the Tibetan voice")}
+ <div class="panel"><p style="font-size:.95rem">Read each Tibetan line aloud once, in a calm, clear voice. The app plays your recording wherever that Tibetan appears. Start with the first ones: they cover the instructions and the first weeks.</p>
+  <div class="bar" style="margin-top:12px"><span style="width:${done/list.length*100}%"></span></div><p class="en-sub" style="margin-top:6px">${done} of ${list.length} recorded · item ${i+1}</p></div>
+ <div class="studio-card"><span class="ctx">${esc(x.ctx)} ${has?'<span class="chip ok">recorded</span>':'<span class="chip no">not yet</span>'}</span>
+  <div class="rtext">${bo(x.t,"",false)}</div>
+  ${canRecord()?`<button class="recbtn ${STU.recording?"on":""}" data-a="${STU.recording?"recStop":"recStart"}" aria-label="${STU.recording?"Stop recording":"Start recording"}"><span><i></i></span></button><p class="en-sub">${STU.recording?"Recording… tap to stop":"Tap the red button, read the line, tap again"}</p>`
+   :`<p class="notice" style="margin:0">Recording only works when this app is opened as a downloaded file in Chrome or Safari, not inside claude.ai. You can still import recordings below.</p>`}
+  ${STU.msg?`<p class="en-sub">${esc(STU.msg)}</p>`:""}
+  <div class="row">${has?`<button class="btn ghost" data-a="pbo" data-k="${kid(x.t)}">▶ Play</button>`:""}</div>
+  <div class="row"><button class="btn ghost" data-a="stuPrev" ${i===0?"disabled":""}>← Back</button><button class="btn ghost" data-a="stuNext" ${i>=list.length-1?"disabled":""}>Next →</button></div>
+  <div class="row"><button class="btn primary" data-a="stuMissing">Next not recorded</button></div></div>
+ <div class="panel" style="margin-top:14px"><h3><span style="font-weight:700">Share recordings with another phone</span></h3>
+  <p class="en-sub">Save all recordings as one file, send it (for example by WeChat), then import it on the parents' phone. Or send the file to Rafael and it can be built into the app.</p>
+  <div class="row" style="margin-top:10px">${inFrame?"":`<button class="btn ghost" data-a="exportPack" ${done?"":"disabled"}>Save recordings file</button>`}<label class="btn ghost" for="packFile" style="cursor:pointer">Import recordings file</label></div>
+  <input type="file" id="packFile" accept=".json,application/json" hidden></div>`;
+}
+async function recStart(){STU.msg="";try{if(!STU.stream)STU.stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});
+ const mt=["audio/webm;codecs=opus","audio/mp4","audio/webm","audio/ogg;codecs=opus"].find(m=>MediaRecorder.isTypeSupported&&MediaRecorder.isTypeSupported(m))||"";
+ const r=new MediaRecorder(STU.stream,mt?{mimeType:mt,audioBitsPerSecond:32000}:undefined);const chunks=[];const t=recordList()[stuIndex()].t;
+ r.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data)};
+ r.onstop=async()=>{STU.recording=false;const blob=new Blob(chunks,{type:r.mimeType||mt||"audio/webm"});if(blob.size<800){STU.msg="That was too short. Try again.";render();return}setClip(t,blob);await idbPut(t,blob);render();playSeq([{bo:t}])};
+ stopAll();r.start();STU.rec=r;STU.recording=true;render()}catch(e){STU.recording=false;STU.msg="The microphone is blocked. Allow microphone access for this page in the browser, then try again.";render()}}
+function recStop(){if(STU.rec&&STU.rec.state!=="inactive")STU.rec.stop()}
+async function exportPack(){const clips={};for(const[k,b] of BLOBS){const u=await blobToDataURL(b);if(u)clips[k]=u}
+ const blob=new Blob([JSON.stringify({v:1,app:"tashi-delek-english",clips})],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="tibetan-voice.json";document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},3000);STU.msg=`Saved ${Object.keys(clips).length} recordings. If nothing downloaded, open the app as a downloaded file instead.`;render()}
+async function importPack(file){try{const pack=JSON.parse(await file.text());let n=0;for(const[k,v] of Object.entries(pack.clips||{})){const b=dataURLtoBlob(v);setClip(k,b);await idbPut(k,b);n++}STU.msg=`Imported ${n} recordings.`;STU.i=null}catch(e){STU.msg="That file could not be read. Choose the tibetan-voice.json file."}render()}
+
+/* ---------- actions ---------- */
+const ACT={
+ profile:d=>{P=d.id;LS.set("tde.profile",P);S=loadProfile(P);go("home")},
+ switch:()=>{P=null;S=null;LS.set("tde.profile",null);stopAll();render()},
+ nav:d=>{if(d.s==="studio")STU.msg="";go(d.s)},
+ startDaily:()=>startLesson("daily"),
+ startPractice:()=>startLesson("practice"),
+ quit:()=>{save();go("home")},
+ play:d=>playSeq([{en:d.t,slow:!!d.slow}]),
+ pbo:d=>playSeq([{bo:KEYS[Number(d.k)]}]),
+ say:()=>{L.say=Math.min(3,L.say+1);render()},
+ next:()=>{const st=cur();if(st.t==="phrase"&&L.kind==="daily"){today().ph++;if(st.isNew)S.phraseIdx++;save()}
+  if(st.t==="dialogue"&&L.kind==="daily"){if(!S.dlg.includes(st.ui))S.dlg.push(st.ui);today().dl=true;save()}
+  if(st.reading)today().rd=true;
+  if(L.i<L.steps.length-1)L.i++;L.ans=null;L.sel=null;L.say=0;stopAll();render();window.scrollTo(0,0)},
+ pick:d=>{const st=cur();if(L.ans)return;const ok=d.id===st.id;L.ans={pick:d.id,ok};grade(st,ok);render();playSeq([S.settings.boAuto?boStep(ok?UI.correct:UI.answerIs):null,{en:BYID[st.id].en}])},
+ sel:d=>{if(L.ans)return;L.sel=d.id;render();playSeq([{en:BYID[d.id].en}])},
+ check:()=>{const st=cur();if(!L.sel||L.ans)return;const ok=L.sel===st.id;L.ans={pick:L.sel,ok};grade(st,ok);render();playSeq([S.settings.boAuto?boStep(ok?UI.correct:UI.answerIs):null,{en:BYID[st.id].en}])},
+ lpick:d=>{const st=cur();if(L.ans)return;const i=Number(d.i),ok=i===st.i;L.ans={pick:i,ok};ok?L.stats.r++:L.stats.w++;render();playSeq([{en:LETTERS[st.i][1]}])},
+ phraseBuild:()=>{cur().phase="build";L.say=0;stopAll();render();playSeq([promptOnce("order")])},
+ chip:d=>{const st=cur();const wi=st.pool.splice(Number(d.k),1)[0];st.ans.push(wi);render();playSeq([{en:st.words[wi].replace(/[.,!?]/g,"")}])},
+ unchip:d=>{const st=cur();const wi=st.ans.splice(Number(d.k),1)[0];st.pool.push(wi);render()},
+ phraseCheck:()=>{const st=cur();st.ok=st.ans.map(i=>st.words[i]).join(" ")===st.p.en;st.phase="result";st.ok?L.stats.r++:L.stats.w++;render();playSeq([S.settings.boAuto?boStep(st.ok?UI.correct:UI.answerIs):null,{en:st.p.en}])},
+ dlgAll:()=>{const st=cur();if(!st||st.t!=="dialogue")return;const dl=UNITS[st.ui].dialogue;stopAll();const my=seqTok;(async()=>{for(let i=0;i<dl.length;i++){if(my!==seqTok)return;document.querySelectorAll(".dline").forEach(e=>e.classList.toggle("now",e.id==="dl"+i));await speakP(dl[i][1]);if(my!==seqTok)return;if(hasV(dl[i][2])){await sleep(250);await playBoRaw(dl[i][2])}await sleep(500)}document.querySelectorAll(".dline.now").forEach(e=>e.classList.remove("now"))})()},
+ dlgQuiz:()=>{cur().phase="quiz";stopAll();render();playSeq([promptOnce("dlgQ"),{en:cur().q[1]}])},
+ dlgPick:d=>{const st=cur();if(st.ans)return;const dl=UNITS[st.ui].dialogue,i=Number(d.i),ok=dl[i]===st.q;st.ans={pick:i,ok};ok?L.stats.r++:L.stats.w++;render();playSeq([S.settings.boAuto?boStep(ok?UI.correct:UI.answerIs):null,boStep(st.q[2])])},
+ rate:d=>{S.settings.rate=Number(d.v);save();render();playSeq([{en:"Hello"}])},
+ hints:d=>{S.settings.hints=d.v==="1";save();render()},
+ iosOk:()=>{LS.set("tde.iosTipOk",true);render()},
+ boAuto:d=>{S.settings.boAuto=d.v==="1";save();render()},
+ resetAsk:()=>{resetAsk=true;render()},
+ resetNo:()=>{resetAsk=false;render()},
+ resetYes:()=>{const st=S.settings;S=defaults();S.settings=st;save();resetAsk=false;go("home")},
+ recStart:()=>recStart(), recStop:()=>recStop(),
+ stuPrev:()=>{STU.i=Math.max(0,stuIndex()-1);STU.msg="";render()},
+ stuNext:()=>{STU.i=Math.min(recordList().length-1,stuIndex()+1);STU.msg="";render()},
+ stuMissing:()=>{const l=recordList(),s=stuIndex();let f=l.findIndex((x,j)=>j>s&&!hasV(x.t));if(f<0)f=l.findIndex(x=>!hasV(x.t));if(f>=0)STU.i=f;STU.msg=f<0?"Everything is recorded.":"";render()},
+ exportPack:()=>exportPack()
+};
+app.addEventListener("click",e=>{const b=e.target.closest("[data-a]");if(!b||b.disabled)return;const f=ACT[b.dataset.a];if(f){e.stopPropagation();f(b.dataset,b)}});
+app.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches('[role=button][data-a]')){e.preventDefault();e.target.click()}});
+app.addEventListener("change",e=>{if(e.target.id==="voiceSel"){S.settings.voice=e.target.value;save();playSeq([{en:"Hello, how are you?"}])}if(e.target.id==="packFile"&&e.target.files[0])importPack(e.target.files[0])});
+app.addEventListener("toggle",e=>{if(e.target.matches("details.unit")&&e.target.open){const all=[...document.querySelectorAll("details.unit")];openUnit=all.indexOf(e.target)}},true);
+document.addEventListener("visibilitychange",()=>{if(document.hidden)save()});
+render();initVoice();
+</script>
+</body></html>
